@@ -57,7 +57,7 @@ const Login = () => {
                             <span>Don't have an account!</span>
                             <Link to="/signup"><span className=" cursor-pointer">Signup</span></Link>
                         </div>
-                        <button className="text-lg bg-[#ec601d] rounded-md px-[10px] py-[5px] w-full" onClick={handleLogin}>
+                        <button className="text-lg bg-[rgb(29,181,236)] rounded-md px-[10px] py-[5px] w-full" onClick={handleLogin}>
                             Login
                         </button>
                     </div>

@@ -657,9 +657,9 @@ const BookingDetails = () => {
     return (
         <>
             <Navbar />
-            <section className="min-h-screen bg-gradient-to-b from-white via-white to-[#ec601d]/10 py-8 px-4 md:px-[5.5%] overflow-x-hidden max-w-full">
+            <section className="min-h-screen bg-gradient-to-b from-white via-white to-[rgb(29,181,236)]/10 py-8 px-4 md:px-[5.5%] overflow-x-hidden max-w-full">
                 <div className="w-full mx-auto">
-                    <h2 className="text-left font-bold text-3xl md:text-4xl text-[#ec601d] mb-4">
+                    <h2 className="text-left font-bold text-3xl md:text-4xl text-[rgb(29,181,236)] mb-4">
                         Showing {flightList.length} flights from {fromAirport?.code || from} to {toAirport?.code || to}
                     </h2>
 
@@ -667,7 +667,7 @@ const BookingDetails = () => {
                     <div className="grid gap-3 mb-8">
                         {loadingFlights ? (
                             <div className="text-center py-12">
-                                <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[#ec601d] mx-auto"></div>
+                                <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[rgb(29,181,236)] mx-auto"></div>
                                 <p className="mt-4 text-gray-600">Searching for flights...</p>
                             </div>
                         ) : flightList.length > 0 ? (
@@ -678,7 +678,7 @@ const BookingDetails = () => {
                                     borderRadius: "20px"
                                 }}>
                                     {/* Outbound Flight Card */}
-                                    <div className={`flex-1 w-full max-w-full min-w-0 h-full text-sm md:text-base bg-antiquewhite rounded-lg  p-4 sm:p-6 overflow-hidden break-words box-border transition-all duration-300 ${selectedFlight?.id === flight?.id ? "border-[#ec601d] bg-[#ec601d]/10" : "border-gray-200"
+                                    <div className={`flex-1 w-full max-w-full min-w-0 h-full text-sm md:text-base bg-antiquewhite rounded-lg  p-4 sm:p-6 overflow-hidden break-words box-border transition-all duration-300 ${selectedFlight?.id === flight?.id ? "border-[rgb(29,181,236)] bg-[rgb(29,181,236)]/10" : "border-gray-200"
                                         }`}>
                                         <div className="text-sm uppercase font-medium text-gray-500 mb-3">Outbound Flight</div>
                                         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 h-full">
@@ -694,7 +694,7 @@ const BookingDetails = () => {
                                                             alt="airline"
                                                         />
                                                     ) : (
-                                                        <IoAirplane className="text-[#ec601d] w-6 h-6" />
+                                                        <IoAirplane className="text-[rgb(29,181,236)] w-6 h-6" />
                                                     )}
                                                 </div>
                                                 <div>
@@ -765,9 +765,9 @@ const BookingDetails = () => {
                                                         })()}
                                                     </div>
                                                     <div className="flex items-center space-x-2 my-1">
-                                                        <div className="w-2 h-2 bg-[#ec601d] rounded-full"></div>
+                                                        <div className="w-2 h-2 bg-[rgb(29,181,236)] rounded-full"></div>
                                                         <div className="w-16 h-0.5 bg-gray-300"></div>
-                                                        <div className="w-2 h-2 bg-[#ec601d] rounded-full"></div>
+                                                        <div className="w-2 h-2 bg-[rgb(29,181,236)] rounded-full"></div>
                                                     </div>
                                                     <div className="text-xs text-gray-400">
                                                         {flight.route && flight.route.length > 1
@@ -820,7 +820,7 @@ const BookingDetails = () => {
 
                                     {/* Return Flight Card - Only show for Round Trip */}
                                     {tripType === "Round Trip" && (
-                                        <div className={`flex-1 w-full max-w-full min-w-0 h-full text-sm md:text-base bg-antiquewhite rounded-lg  p-4 sm:p-6 overflow-hidden break-words box-border transition-all duration-300 ${selectedFlight?.id === flight?.id ? "border-[#ec601d] bg-[#ec601d]/10" : "border-gray-200"
+                                        <div className={`flex-1 w-full max-w-full min-w-0 h-full text-sm md:text-base bg-antiquewhite rounded-lg  p-4 sm:p-6 overflow-hidden break-words box-border transition-all duration-300 ${selectedFlight?.id === flight?.id ? "border-[rgb(29,181,236)] bg-[rgb(29,181,236)]/10" : "border-gray-200"
                                             }`}>
                                             <div className="text-sm uppercase font-medium text-gray-500 mb-3">Return Flight</div>
                                             <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 h-full">
@@ -836,7 +836,7 @@ const BookingDetails = () => {
                                                                 alt="airline"
                                                             />
                                                         ) : (
-                                                            <IoAirplane className="text-[#ec601d] w-6 h-6" />
+                                                            <IoAirplane className="text-[rgb(29,181,236)] w-6 h-6" />
                                                         )}
                                                     </div>
                                                     <div>
@@ -899,9 +899,9 @@ const BookingDetails = () => {
                                                             })()}
                                                         </div>
                                                         <div className="flex items-center space-x-2 my-1">
-                                                            <div className="w-2 h-2 bg-[#ec601d] rounded-full"></div>
+                                                            <div className="w-2 h-2 bg-[rgb(29,181,236)] rounded-full"></div>
                                                             <div className="w-16 h-0.5 bg-gray-300"></div>
-                                                            <div className="w-2 h-2 bg-[#ec601d] rounded-full"></div>
+                                                            <div className="w-2 h-2 bg-[rgb(29,181,236)] rounded-full"></div>
                                                         </div>
                                                         <div className="text-xs text-gray-400">
                                                             {flight.route && flight.route.length > 1
@@ -948,7 +948,7 @@ const BookingDetails = () => {
                                     <div className="flex-shrink-0 flex items-center justify-center md:justify-center md:pl-4 w-full md:w-[140px]">
                                         <button
                                             onClick={() => handleFlightSelect(flight)}
-                                            className={`self-center px-3 py-2 rounded-md font-medium transition-all duration-300 bg-[#ec601d] text-white shadow-sm hover:brightness-95 w-[110px] sm:w-[120px] text-center text-sm md:text-base`}
+                                            className={`self-center px-3 py-2 rounded-md font-medium transition-all duration-300 bg-[rgb(29,181,236)] text-white shadow-sm hover:brightness-95 w-[110px] sm:w-[120px] text-center text-sm md:text-base`}
                                         >
                                             {selectedFlight?.id === flight?.id ? "Selected" : `Select`}
                                         </button>
@@ -969,7 +969,7 @@ const BookingDetails = () => {
                     {/* Booking Details Section - Shows after flight selection */}
                     {showBookingDetails && selectedFlight && (
                         <div id="booking-section" className="mt-12 border-t pt-8">
-                            <h3 className="text-left font-bold text-2xl md:text-3xl text-[#ec601d] mb-8">
+                            <h3 className="text-left font-bold text-2xl md:text-3xl text-[rgb(29,181,236)] mb-8">
                                 Booking Details
                             </h3>
 
@@ -987,15 +987,15 @@ const BookingDetails = () => {
                                 </div>
                                 {/* Right side - Order Summary (30%) */}
                                 <div className="w-full lg:w-[30%] mt-4 lg:mt-0">
-                                    <div className="bg-white rounded-xl shadow-md overflow-hidden border border-[#ec601d]/30">
+                                    <div className="bg-white rounded-xl shadow-md overflow-hidden border border-[rgb(29,181,236)]/30">
                                         {/* Order summary header */}
-                                        <div className="bg-[#ec601d] py-4 px-5 text-white font-bold text-center text-lg rounded-t-xl">
+                                        <div className="bg-[rgb(29,181,236)] py-4 px-5 text-white font-bold text-center text-lg rounded-t-xl">
                                             Order Summary
                                         </div>
 
                                         {/* Flight details section */}
                                         <div className="p-5 space-y-5">
-                                            <h4 className="bg-gradient-to-r from-[#ec601d] to-[#ec601d]/90 text-white font-semibold py-3 px-4 rounded-lg text-center shadow-sm">
+                                            <h4 className="bg-gradient-to-r from-[rgb(29,181,236)] to-[rgb(29,181,236)]/90 text-white font-semibold py-3 px-4 rounded-lg text-center shadow-sm">
                                                 Selected Flight
                                             </h4>
 
@@ -1011,7 +1011,7 @@ const BookingDetails = () => {
                                                                     <div className="text-[13px] font-normal text-gray-800">{fromInfo.place}</div>
                                                                     <div className="text-[8px] text-gray-500">{renderAirportLine(fromInfo.airport)}</div>
                                                                 </div>
-                                                                <div className="col-span-1 text-[#ec601d] flex justify-center">
+                                                                <div className="col-span-1 text-[rgb(29,181,236)] flex justify-center">
                                                                     <HiMiniArrowRight className="w-6 h-6" />
                                                                 </div>
                                                                 <div className="col-span-2 text-center">
@@ -1039,7 +1039,7 @@ const BookingDetails = () => {
                                                                 {getAirlineLogo(item?.airline) ? (
                                                                     <img src={getAirlineLogo(item?.airline)} className="max-w-full max-h-full object-contain" alt="airline" />
                                                                 ) : (
-                                                                    <IoAirplane className="text-[#ec601d] w-6 h-6" />
+                                                                    <IoAirplane className="text-[rgb(29,181,236)] w-6 h-6" />
                                                                 )}
                                                             </div>
                                                             <div className="flex flex-col">
@@ -1059,7 +1059,7 @@ const BookingDetails = () => {
                                                                             <div className="font-medium text-gray-800">{fromInfo.place}</div>
                                                                             <div className="text-[8px] text-gray-500">{renderAirportLine(fromInfo.airport)}</div>
                                                                         </div>
-                                                                        <div className="col-span-1 text-[#ec601d] flex justify-center">
+                                                                        <div className="col-span-1 text-[rgb(29,181,236)] flex justify-center">
                                                                             <HiMiniArrowRight className="w-5 h-5" />
                                                                         </div>
                                                                         <div className="col-span-2 text-center text-sm">
@@ -1085,7 +1085,7 @@ const BookingDetails = () => {
                                                                         hour12: false
                                                                     })}
                                                                 </div>
-                                                                <div className="text-base font-medium text-[#ec601d]">{item?.cityCodeFrom}</div>
+                                                                <div className="text-base font-medium text-[rgb(29,181,236)]">{item?.cityCodeFrom}</div>
                                                             </div>
 
                                                             {/* Flight duration */}
@@ -1093,9 +1093,9 @@ const BookingDetails = () => {
                                                                 <div className="relative flex flex-col items-center">
                                                                     <div className="text-xs text-gray-500 mb-1">{formatTime(item?.local_departure, item?.local_arrival)}</div>
                                                                     <div className="w-full h-0.5 bg-gray-200 rounded-full relative">
-                                                                        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-[#ec601d] rounded-full"></div>
-                                                                        <div className="absolute top-1/2 left-0 transform -translate-y-1/2 w-1.5 h-1.5 bg-[#ec601d] rounded-full"></div>
-                                                                        <div className="absolute top-1/2 right-0 transform -translate-y-1/2 w-1.5 h-1.5 bg-[#ec601d] rounded-full"></div>
+                                                                        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-[rgb(29,181,236)] rounded-full"></div>
+                                                                        <div className="absolute top-1/2 left-0 transform -translate-y-1/2 w-1.5 h-1.5 bg-[rgb(29,181,236)] rounded-full"></div>
+                                                                        <div className="absolute top-1/2 right-0 transform -translate-y-1/2 w-1.5 h-1.5 bg-[rgb(29,181,236)] rounded-full"></div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1110,7 +1110,7 @@ const BookingDetails = () => {
                                                                         hour12: false
                                                                     })}
                                                                 </div>
-                                                                <div className="text-base font-medium text-[#ec601d]">{item?.cityCodeTo}</div>
+                                                                <div className="text-base font-medium text-[rgb(29,181,236)]">{item?.cityCodeTo}</div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1119,12 +1119,12 @@ const BookingDetails = () => {
                                                     {/* <div className="mt-4 border-t border-gray-100 pt-3 px-3 bg-gray-50 rounded-b-lg">
                                                         <div className="flex items-center justify-between">
                                                             <div>
-                                                                <button className="text-sm text-[#ec601d] hover:underline">
+                                                                <button className="text-sm text-[rgb(29,181,236)] hover:underline">
                                                                     Flight Details
                                                                 </button>
                                                             </div>
                                                             <div>
-                                                                <button className="px-4 py-2 rounded-md font-medium transition-all duration-300 bg-[#ec601d] text-white shadow-sm hover:brightness-95">
+                                                                <button className="px-4 py-2 rounded-md font-medium transition-all duration-300 bg-[rgb(29,181,236)] text-white shadow-sm hover:brightness-95">
                                                                     ₹10,220
                                                                 </button>
                                                             </div>
@@ -1138,7 +1138,7 @@ const BookingDetails = () => {
                                                     <div className="p-4 border-b border-gray-100">
                                                         <div className="flex items-center space-x-3 mb-2">
                                                             <div className="h-12 w-12 flex items-center justify-center bg-gray-50 rounded-full p-1">
-                                                                <IoAirplane className="text-[#ec601d] w-6 h-6" />
+                                                                <IoAirplane className="text-[rgb(29,181,236)] w-6 h-6" />
                                                             </div>
                                                             <div className="flex flex-col">
                                                                 <span className="font-medium text-gray-800">British Airways</span>
@@ -1157,7 +1157,7 @@ const BookingDetails = () => {
                                                                             <div className="font-medium text-gray-800">{fromInfo.place}</div>
                                                                             <div className="text-[8px] text-gray-500">{renderAirportLine(fromInfo.airport)}</div>
                                                                         </div>
-                                                                        <div className="col-span-1 text-[#ec601d] flex justify-center">
+                                                                        <div className="col-span-1 text-[rgb(29,181,236)] flex justify-center">
                                                                             <HiMiniArrowRight className="w-5 h-5" />
                                                                         </div>
                                                                         <div className="col-span-2 text-center text-sm">
@@ -1177,7 +1177,7 @@ const BookingDetails = () => {
                                                             <div className="text-center w-1/3">
                                                                 <div className="text-sm text-gray-500">27-04-2025</div>
                                                                 <div className="text-lg font-bold text-gray-800">10:30</div>
-                                                                <div className="text-base font-medium text-[#ec601d]">JFK</div>
+                                                                <div className="text-base font-medium text-[rgb(29,181,236)]">JFK</div>
                                                             </div>
 
                                                             {/* Flight duration */}
@@ -1185,9 +1185,9 @@ const BookingDetails = () => {
                                                                 <div className="relative flex flex-col items-center">
                                                                     <div className="text-xs text-gray-500 mb-1">7h 30m</div>
                                                                     <div className="w-full h-0.5 bg-gray-200 rounded-full relative">
-                                                                        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-[#ec601d] rounded-full"></div>
-                                                                        <div className="absolute top-1/2 left-0 transform -translate-y-1/2 w-1.5 h-1.5 bg-[#ec601d] rounded-full"></div>
-                                                                        <div className="absolute top-1/2 right-0 transform -translate-y-1/2 w-1.5 h-1.5 bg-[#ec601d] rounded-full"></div>
+                                                                        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-[rgb(29,181,236)] rounded-full"></div>
+                                                                        <div className="absolute top-1/2 left-0 transform -translate-y-1/2 w-1.5 h-1.5 bg-[rgb(29,181,236)] rounded-full"></div>
+                                                                        <div className="absolute top-1/2 right-0 transform -translate-y-1/2 w-1.5 h-1.5 bg-[rgb(29,181,236)] rounded-full"></div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1196,7 +1196,7 @@ const BookingDetails = () => {
                                                             <div className="text-center w-1/3">
                                                                 <div className="text-sm text-gray-500">27-04-2025</div>
                                                                 <div className="text-lg font-bold text-gray-800">18:00</div>
-                                                                <div className="text-base font-medium text-[#ec601d]">LHR</div>
+                                                                <div className="text-base font-medium text-[rgb(29,181,236)]">LHR</div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1206,13 +1206,13 @@ const BookingDetails = () => {
                                             {/* Passenger Summary */}
                                             {passengers.length > 0 && (
                                                 <div className="mt-4">
-                                                    <h4 className="bg-gradient-to-r from-[#ec601d] to-[#ec601d]/90 text-white font-semibold py-3 px-4 rounded-lg text-center shadow-sm mb-3">
+                                                    <h4 className="bg-gradient-to-r from-[rgb(29,181,236)] to-[rgb(29,181,236)]/90 text-white font-semibold py-3 px-4 rounded-lg text-center shadow-sm mb-3">
                                                         Passengers
                                                     </h4>
                                                     <div className="space-y-2 max-h-[180px] overflow-y-auto pr-1">
                                                         {passengers.map((passenger, idx) => (
                                                             <div key={idx} className="flex items-center gap-2 p-2 rounded-lg border border-gray-100 bg-white hover:bg-gray-50 transition-colors">
-                                                                <div className="flex-shrink-0 w-8 h-8 rounded-full bg-[#ec601d]/10 flex items-center justify-center text-xs text-[#ec601d] font-medium">
+                                                                <div className="flex-shrink-0 w-8 h-8 rounded-full bg-[rgb(29,181,236)]/10 flex items-center justify-center text-xs text-[rgb(29,181,236)] font-medium">
                                                                     {idx + 1}
                                                                 </div>
                                                                 <div className="flex-grow">
@@ -1262,7 +1262,7 @@ const BookingDetails = () => {
 
                                                 <div className="flex justify-between font-bold text-lg">
                                                     <span className="text-gray-800">Total</span>
-                                                    <span className="text-[#ec601d]">{total}</span>
+                                                    <span className="text-[rgb(29,181,236)]">{total}</span>
                                                 </div>
                                             </div>
 
@@ -1274,14 +1274,14 @@ const BookingDetails = () => {
                                                             type="radio"
                                                             name="paymentMethod"
                                                             id="Razorpay"
-                                                            className="appearance-none w-5 h-5 border-2 border-[#ec601d] rounded-full checked:bg-[#ec601d] checked:border-[#ec601d] focus:outline-none"
+                                                            className="appearance-none w-5 h-5 border-2 border-[rgb(29,181,236)] rounded-full checked:bg-[rgb(29,181,236)] checked:border-[rgb(29,181,236)] focus:outline-none"
                                                             checked={selectedPaymentMethod === "Razorpay"}
                                                             onChange={handlePaymentMethodChange}
                                                         />
                                                         <label htmlFor="Razorpay">Razorpay</label>
                                                     </div>
 
-                                                    <div className="w-full  text-center bg-[#ec601d] hover:bg-[#ec601d] text-white font-bold text-lg py-2 px-3 rounded-lg mt-4  transition-all duration-300 shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-[#ec601d] focus:ring-opacity-50 cursor-pointer" onClick={handlePaymentClick}>
+                                                    <div className="w-full  text-center bg-[rgb(29,181,236)] hover:bg-[rgb(29,181,236)] text-white font-bold text-lg py-2 px-3 rounded-lg mt-4  transition-all duration-300 shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-[rgb(29,181,236)] focus:ring-opacity-50 cursor-pointer" onClick={handlePaymentClick}>
                                                         Pay Now
                                                     </div>
                                                 </div>

@@ -368,14 +368,14 @@ const BookingDetailsRight = ({ totalPassenger, setTotalPassenger, onContactDetai
     };
 
     // Common input classes for consistent height
-    const inputClasses = "h-[52px] border border-gray-300 py-3.5 px-4 focus:outline-none focus:ring-2 focus:ring-[#ec601d]/50 focus:border-[#ec601d] transition-all duration-300";
-    const selectClasses = "h-[52px] border border-gray-300 py-3.5 px-4 appearance-none cursor-pointer focus:outline-none focus:ring-2 focus:ring-[#ec601d]/50 focus:border-[#ec601d] transition-all duration-300";
+    const inputClasses = "h-[52px] border border-gray-300 py-3.5 px-4 focus:outline-none focus:ring-2 focus:ring-[rgb(29,181,236)]/50 focus:border-[rgb(29,181,236)] transition-all duration-300";
+    const selectClasses = "h-[52px] border border-gray-300 py-3.5 px-4 appearance-none cursor-pointer focus:outline-none focus:ring-2 focus:ring-[rgb(29,181,236)]/50 focus:border-[rgb(29,181,236)] transition-all duration-300";
     const labelClasses = "block text-sm font-medium text-gray-600 mb-2 flex items-center";
 
     return (
         <div className="w-full ">
             <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-orange-100 transition-all duration-300 hover:shadow-xl">
-                <div className="bg-gradient-to-r from-[#ec601d] to-[#ec601d]/80 py-5 px-6 text-white font-bold text-center text-lg rounded-t-xl relative overflow-hidden">
+                <div className="bg-gradient-to-r from-[rgb(29,181,236)] to-[rgb(29,181,236)]/80 py-5 px-6 text-white font-bold text-center text-lg rounded-t-xl relative overflow-hidden">
                     <div className="absolute -top-6 -left-6 w-12 h-12 rounded-full bg-white/10"></div>
                     <div className="absolute -bottom-6 -right-6 w-16 h-16 rounded-full bg-white/10"></div>
                     Contact & Passenger Details
@@ -383,8 +383,8 @@ const BookingDetailsRight = ({ totalPassenger, setTotalPassenger, onContactDetai
                 <div className="p-8">
                     <div className="flex flex-col gap-8">
                         <h4 className="text-xl font-medium text-gray-800 flex items-center">
-                            <span className="inline-flex w-8 h-8 bg-[#ec601d]/10 rounded-full mr-3 items-center justify-center">
-                                <FaUser className="text-[#ec601d]" />
+                            <span className="inline-flex w-8 h-8 bg-[rgb(29,181,236)]/10 rounded-full mr-3 items-center justify-center">
+                                <FaUser className="text-[rgb(29,181,236)]" />
                             </span>
                             Contact Details
                         </h4>
@@ -393,7 +393,7 @@ const BookingDetailsRight = ({ totalPassenger, setTotalPassenger, onContactDetai
                         <div className="flex flex-col lg:flex-row gap-6">
                             <div className="group w-full lg:w-1/2 transform transition-all duration-300">
                             <label className={labelClasses}>
-                                <FaPhone className="mr-2 text-[#ec601d]" />
+                                <FaPhone className="mr-2 text-[rgb(29,181,236)]" />
                                 Phone Number
                             </label>
                             <div className="flex shadow-sm hover:shadow transition-shadow duration-300 rounded-md overflow-hidden">
@@ -452,7 +452,7 @@ const BookingDetailsRight = ({ totalPassenger, setTotalPassenger, onContactDetai
                             {/* Purpose Selection (for flight search only) */}
                             <div className="group w-full lg:w-1/2 transform transition-all duration-300">
                             <label className={labelClasses}>
-                                <svg xmlns="http://www.w3.org/2000/svg" className="mr-2 text-[#ec601d] h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                                <svg xmlns="http://www.w3.org/2000/svg" className="mr-2 text-[rgb(29,181,236)] h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
                                 </svg>
                                 Purpose
@@ -487,7 +487,7 @@ const BookingDetailsRight = ({ totalPassenger, setTotalPassenger, onContactDetai
                         <div className="flex flex-col gap-5 sm:flex-row">
                             <div className="w-full sm:w-1/2 group transform transition-all duration-300">
                                 <label className={labelClasses}>
-                                    <FaUser className="mr-2 text-[#ec601d]" /> 
+                                    <FaUser className="mr-2 text-[rgb(29,181,236)]" /> 
                                     Full Name
                                 </label>
                                 <input
@@ -501,7 +501,7 @@ const BookingDetailsRight = ({ totalPassenger, setTotalPassenger, onContactDetai
                             </div>
                             <div className="w-full sm:w-1/2 group transform transition-all duration-300">
                                 <label className={labelClasses}>
-                                    <FaEnvelope className="mr-2 text-[#ec601d]" />
+                                    <FaEnvelope className="mr-2 text-[rgb(29,181,236)]" />
                                     Email Address
                                 </label>
                                 <input
@@ -520,12 +520,12 @@ const BookingDetailsRight = ({ totalPassenger, setTotalPassenger, onContactDetai
                     {passengers.map((passenger, index) => (
                         <div key={index} className="mt-10 pt-8 border-t border-gray-200 relative">
                             <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-white px-4">
-                                <div className="w-6 h-6 bg-[#ec601d]/10 rounded-full flex items-center justify-center text-xs text-[#ec601d] font-medium">{index + 1}</div>
+                                <div className="w-6 h-6 bg-[rgb(29,181,236)]/10 rounded-full flex items-center justify-center text-xs text-[rgb(29,181,236)] font-medium">{index + 1}</div>
                             </div>
                             <div className="flex justify-between items-center mb-5">
                                 <h4 className="text-xl font-medium text-gray-800 flex items-center">
-                                        <span className="inline-flex w-8 h-8 bg-[#ec601d]/10 rounded-full mr-3 items-center justify-center">
-                                        <FaUser className="text-[#ec601d]" />
+                                        <span className="inline-flex w-8 h-8 bg-[rgb(29,181,236)]/10 rounded-full mr-3 items-center justify-center">
+                                        <FaUser className="text-[rgb(29,181,236)]" />
                                     </span>
                                     Passenger {index + 1}
                                 </h4>
@@ -580,7 +580,7 @@ const BookingDetailsRight = ({ totalPassenger, setTotalPassenger, onContactDetai
                             
                             <div className="mt-5 group transform transition-all duration-300">
                                 <label className={labelClasses}>
-                                    <FaGlobeAmericas className="mr-2 text-[#ec601d]" />
+                                    <FaGlobeAmericas className="mr-2 text-[rgb(29,181,236)]" />
                                     Nationality
                                 </label>
                                 <div className="relative">
@@ -632,10 +632,10 @@ const BookingDetailsRight = ({ totalPassenger, setTotalPassenger, onContactDetai
                     ))}
                     
                     <button
-                        className="mt-8 inline-flex items-center gap-2 text-[#ec601d] font-semibold hover:text-[#d15518] transition-all duration-300 py-2 px-4 rounded-lg hover:bg-[#ec601d]/5 group"
+                        className="mt-8 inline-flex items-center gap-2 text-[rgb(29,181,236)] font-semibold hover:text-[#d15518] transition-all duration-300 py-2 px-4 rounded-lg hover:bg-[rgb(29,181,236)]/5 group"
                         onClick={addPassenger}
                     >
-                        <span className="flex items-center justify-center w-6 h-6 bg-[#ec601d] rounded-full text-white group-hover:scale-110 transition-transform duration-300">
+                        <span className="flex items-center justify-center w-6 h-6 bg-[rgb(29,181,236)] rounded-full text-white group-hover:scale-110 transition-transform duration-300">
                             <FaPlus className="w-3 h-3" />
                         </span> 
                         Add Passenger

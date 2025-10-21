@@ -26,7 +26,7 @@ const PricingPlan = () => {
                                 <li className='border-b border-b-slate-300 text-center py-4'>No Fee To Change Date </li>
                                 <li className='text-center py-4'>Price is for oneway and round-trip. Flight reservation for multi-city available at extra cost.</li>
                             </ul>
-                            <ScrollToTop smooth component={<button className="w-full border rounded-xl bg-[#ec601d] text-white font-bold py-3 hover:bg-white hover:text-black hover:border hover:border-[#ec601d]"> Get Started</button>} className='!static !w-full' ></ScrollToTop>
+                            <ScrollToTop smooth component={<button className="w-full border rounded-xl bg-[rgb(29,181,236)] text-white font-bold py-3 hover:bg-white hover:text-black hover:border hover:border-[rgb(29,181,236)]"> Get Started</button>} className='!static !w-full' ></ScrollToTop>
                         </div>
 
                         <div className='rounded-[20px] w-full sm:w-[80%] md:w-[45%] lg:w-[30%] xl:w-[25%] border-solid border-zinc-200 border-2 p-6 grid grid-rows gap-3 bg-white shadow-md'>
@@ -43,7 +43,7 @@ const PricingPlan = () => {
                                 <li className='border-b border-b-slate-300 text-center py-4'>No Fee To Change Date </li>
                                 <li className='text-center py-4'>Price is for one hotel booking. Hotel booking for multi city available at extra cost.</li>
                             </ul>
-                            <ScrollToTop smooth component={<button className="w-full border rounded-xl bg-[#ec601d] text-white font-bold py-3 hover:bg-white hover:text-black hover:border hover:border-[#ec601d]"> Get Started</button>} className='!static !w-full' ></ScrollToTop>
+                            <ScrollToTop smooth component={<button className="w-full border rounded-xl bg-[rgb(29,181,236)] text-white font-bold py-3 hover:bg-white hover:text-black hover:border hover:border-[rgb(29,181,236)]"> Get Started</button>} className='!static !w-full' ></ScrollToTop>
                         </div>
 
                         <div className='rounded-[20px] w-full sm:w-[80%] md:w-[45%] lg:w-[30%] xl:w-[25%] border-solid border-zinc-200 border-2 p-6 grid grid-rows gap-3 bg-white shadow-md'>
@@ -64,7 +64,7 @@ const PricingPlan = () => {
                                 <li className='border-b border-b-slate-300 text-center py-4'>Price is Including Consultant Charge.</li>
                                 <li className='border-b border-b-slate-300 text-center py-4'>genuine insurance & Claim if you injured</li>
                             </ul>
-                            <ScrollToTop smooth component={<button className="w-full border rounded-xl bg-[#ec601d] text-white font-bold py-3 hover:bg-white hover:text-black hover:border hover:border-[#ec601d]"> Get Started</button>} className='!static !w-full' ></ScrollToTop>
+                            <ScrollToTop smooth component={<button className="w-full border rounded-xl bg-[rgb(29,181,236)] text-white font-bold py-3 hover:bg-white hover:text-black hover:border hover:border-[rgb(29,181,236)]"> Get Started</button>} className='!static !w-full' ></ScrollToTop>
                         </div>
 
                     </div>

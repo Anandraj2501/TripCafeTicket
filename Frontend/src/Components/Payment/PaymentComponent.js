@@ -107,13 +107,13 @@ const PaymentComponent = () => {
             <Navbar />
             <section className="min-h-screen bg-gradient-to-b from-white via-white to-orange-100/60 py-8 px-[5.5%]">
                 <div className="w-full max-w-5xl mx-auto">
-                    <h2 className="text-left font-bold text-3xl md:text-4xl text-[#ec601d] mb-10 pb-2 border-b-2 border-orange-200 inline-block">
+                    <h2 className="text-left font-bold text-3xl md:text-4xl text-[rgb(29,181,236)] mb-10 pb-2 border-b-2 border-orange-200 inline-block">
                         Review Ticket
                     </h2>
 
-                    <div className="bg-white rounded-xl shadow-md overflow-hidden border border-[#ec601d]/20">
+                    <div className="bg-white rounded-xl shadow-md overflow-hidden border border-[rgb(29,181,236)]/20">
                         {/* Ticket header */}
-                        <div className="bg-[#ec601d] py-5 px-6 text-white">
+                        <div className="bg-[rgb(29,181,236)] py-5 px-6 text-white">
                             <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
                                 <div>
                                     <h1 className="text-2xl font-bold">Hello, {name}!</h1>
@@ -130,18 +130,18 @@ const PaymentComponent = () => {
                             {/* Payment details */}
                             <div className="mb-8">
                                 <h3 className="text-xl font-semibold text-[#162856] mb-4 flex items-center">
-                                    <FaRegCreditCard className="mr-2 text-[#ec601d]" /> Payment Details
+                                    <FaRegCreditCard className="mr-2 text-[rgb(29,181,236)]" /> Payment Details
                                 </h3>
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                    <div className="bg-gray-50 rounded-lg p-4 flex items-center border border-gray-100 hover:border-[#ec601d]/20 transition-all">
-                                        <div className="w-10 h-10 rounded-full bg-[#ec601d]/10 flex items-center justify-center text-[#ec601d] mr-4">₹</div>
+                                    <div className="bg-gray-50 rounded-lg p-4 flex items-center border border-gray-100 hover:border-[rgb(29,181,236)]/20 transition-all">
+                                        <div className="w-10 h-10 rounded-full bg-[rgb(29,181,236)]/10 flex items-center justify-center text-[rgb(29,181,236)] mr-4">₹</div>
                                         <div>
                                             <p className="text-sm text-gray-500">Amount</p>
                                             <p className="font-semibold text-[#162856]">₹{amount}</p>
                                         </div>
                                     </div>
-                                    <div className="bg-gray-50 rounded-lg p-4 flex items-center border border-gray-100 hover:border-[#ec601d]/20 transition-all">
-                                        <div className="w-10 h-10 rounded-full bg-[#ec601d]/10 flex items-center justify-center text-[#ec601d] mr-4">
+                                    <div className="bg-gray-50 rounded-lg p-4 flex items-center border border-gray-100 hover:border-[rgb(29,181,236)]/20 transition-all">
+                                        <div className="w-10 h-10 rounded-full bg-[rgb(29,181,236)]/10 flex items-center justify-center text-[rgb(29,181,236)] mr-4">
                                             <FaUserCircle />
                                         </div>
                                         <div>
@@ -149,8 +149,8 @@ const PaymentComponent = () => {
                                             <p className="font-semibold text-[#162856] truncate">{name}</p>
                                         </div>
                                     </div>
-                                    <div className="bg-gray-50 rounded-lg p-4 flex items-center border border-gray-100 hover:border-[#ec601d]/20 transition-all">
-                                        <div className="w-10 h-10 rounded-full bg-[#ec601d]/10 flex items-center justify-center text-[#ec601d] mr-4">
+                                    <div className="bg-gray-50 rounded-lg p-4 flex items-center border border-gray-100 hover:border-[rgb(29,181,236)]/20 transition-all">
+                                        <div className="w-10 h-10 rounded-full bg-[rgb(29,181,236)]/10 flex items-center justify-center text-[rgb(29,181,236)] mr-4">
                                             <FaPhoneAlt />
                                         </div>
                                         <div>
@@ -158,8 +158,8 @@ const PaymentComponent = () => {
                                             <p className="font-semibold text-[#162856]">{phone}</p>
                                         </div>
                                     </div>
-                                    <div className="bg-gray-50 rounded-lg p-4 flex items-center border border-gray-100 hover:border-[#ec601d]/20 transition-all">
-                                        <div className="w-10 h-10 rounded-full bg-[#ec601d]/10 flex items-center justify-center text-[#ec601d] mr-4">
+                                    <div className="bg-gray-50 rounded-lg p-4 flex items-center border border-gray-100 hover:border-[rgb(29,181,236)]/20 transition-all">
+                                        <div className="w-10 h-10 rounded-full bg-[rgb(29,181,236)]/10 flex items-center justify-center text-[rgb(29,181,236)] mr-4">
                                             <FaEnvelope />
                                         </div>
                                         <div>
@@ -173,7 +173,7 @@ const PaymentComponent = () => {
                             {/* Passengers section */}
                             <div className="mb-8">
                                 <h3 className="text-xl font-semibold text-[#162856] mb-4 flex items-center">
-                                    <FaUserCircle className="mr-2 text-[#ec601d]" /> Passengers
+                                    <FaUserCircle className="mr-2 text-[rgb(29,181,236)]" /> Passengers
                                 </h3>
                                 <div className="bg-gray-50 rounded-lg border border-gray-100">
                                     <div className="bg-gray-100 py-3 px-4 rounded-t-lg border-b border-gray-200">
@@ -187,7 +187,7 @@ const PaymentComponent = () => {
                                             <div key={index} className="py-3 px-4 hover:bg-white transition-colors">
                                                 <div className="grid grid-cols-12 items-center">
                                                     <div className="col-span-1">
-                                                        <div className="w-8 h-8 rounded-full bg-[#ec601d]/10 flex items-center justify-center text-[#ec601d] font-medium">
+                                                        <div className="w-8 h-8 rounded-full bg-[rgb(29,181,236)]/10 flex items-center justify-center text-[rgb(29,181,236)] font-medium">
                                                             {index + 1}
                                                         </div>
                                                     </div>
@@ -204,27 +204,27 @@ const PaymentComponent = () => {
                             {/* Travel details */}
                             <div className="mb-8">
                                 <h3 className="text-xl font-semibold text-[#162856] mb-4 flex items-center">
-                                    <MdFlight className="mr-2 text-[#ec601d]" /> Travel Details
+                                    <MdFlight className="mr-2 text-[rgb(29,181,236)]" /> Travel Details
                                 </h3>
 
                                 {/* Journey */}
                                 <div className="bg-gray-50 rounded-lg p-5 border border-gray-100 mb-4">
                                     <div className="grid grid-cols-11 gap-2">
                                         <div className="col-span-5">
-                                            <div className="bg-[#ec601d]/90 text-white p-4 rounded-lg">
+                                            <div className="bg-[rgb(29,181,236)]/90 text-white p-4 rounded-lg">
                                                 <p className="text-sm text-white/80 mb-1">From</p>
                                                 <p className="font-bold truncate">{travellingDetails?.from}</p>
                                             </div>
                                         </div>
 
                                         <div className="col-span-1 flex items-center justify-center">
-                                            <div className="w-10 h-10 rounded-full bg-white border border-gray-200 flex items-center justify-center text-[#ec601d]">
+                                            <div className="w-10 h-10 rounded-full bg-white border border-gray-200 flex items-center justify-center text-[rgb(29,181,236)]">
                                                 <HiMiniArrowRight className="w-5 h-5" />
                                             </div>
                                         </div>
 
                                         <div className="col-span-5">
-                                            <div className="bg-[#ec601d]/90 text-white p-4 rounded-lg">
+                                            <div className="bg-[rgb(29,181,236)]/90 text-white p-4 rounded-lg">
                                                 <p className="text-sm text-white/80 mb-1">To</p>
                                                 <p className="font-bold truncate">{travellingDetails?.to}</p>
                                             </div>
@@ -235,7 +235,7 @@ const PaymentComponent = () => {
                                 {/* Travel dates */}
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                                     <div className="bg-gray-50 rounded-lg p-4 flex items-center border border-gray-100">
-                                        <div className="w-10 h-10 rounded-full bg-[#ec601d]/10 flex items-center justify-center text-[#ec601d] mr-4">
+                                        <div className="w-10 h-10 rounded-full bg-[rgb(29,181,236)]/10 flex items-center justify-center text-[rgb(29,181,236)] mr-4">
                                             <FaRegCalendarAlt />
                                         </div>
                                         <div>
@@ -252,7 +252,7 @@ const PaymentComponent = () => {
 
                                     {travellingDetails?.returnDate && (
                                         <div className="bg-gray-50 rounded-lg p-4 flex items-center border border-gray-100">
-                                            <div className="w-10 h-10 rounded-full bg-[#ec601d]/10 flex items-center justify-center text-[#ec601d] mr-4">
+                                            <div className="w-10 h-10 rounded-full bg-[rgb(29,181,236)]/10 flex items-center justify-center text-[rgb(29,181,236)] mr-4">
                                                 <FaRegCalendarAlt />
                                             </div>
                                             <div>
@@ -269,7 +269,7 @@ const PaymentComponent = () => {
                                     )}
 
                                     <div className="bg-gray-50 rounded-lg p-4 flex items-center border border-gray-100">
-                                        <div className="w-10 h-10 rounded-full bg-[#ec601d]/10 flex items-center justify-center text-[#ec601d] mr-4">
+                                        <div className="w-10 h-10 rounded-full bg-[rgb(29,181,236)]/10 flex items-center justify-center text-[rgb(29,181,236)] mr-4">
                                             <FaExchangeAlt />
                                         </div>
                                         <div>
@@ -288,12 +288,12 @@ const PaymentComponent = () => {
                             )}
                             {selectedPaymentMethod === "PhonePe" ? (
                                 <div className="flex flex-col items-center">
-                                    <div className="text-sm text-[#162856] bg-[#ec601d]/5 px-3 py-1 rounded-md mb-3">
+                                    <div className="text-sm text-[#162856] bg-[rgb(29,181,236)]/5 px-3 py-1 rounded-md mb-3">
                                         Pay through UPI and get cashback
                                     </div>
                                     <button
                                         type="button"
-                                        className="bg-[#ec601d] hover:bg-[#d15518] text-white font-bold text-lg py-4 px-10 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-[#ec601d] focus:ring-opacity-50 flex items-center justify-center"
+                                        className="bg-[rgb(29,181,236)] hover:bg-[#d15518] text-white font-bold text-lg py-4 px-10 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-[rgb(29,181,236)] focus:ring-opacity-50 flex items-center justify-center"
                                         // onClick={initiatePhonePePayment}
                                     >
                                         <FaRegCreditCard className="mr-2" /> Proceed to Payment
@@ -301,12 +301,12 @@ const PaymentComponent = () => {
                                 </div>
                             ) : selectedPaymentMethod === "Razorpay" ? (
                                 <div className="flex flex-col items-center">
-                                    <div className="text-sm text-[#162856] bg-[#ec601d]/5 px-3 py-1 rounded-md mb-3">
+                                    <div className="text-sm text-[#162856] bg-[rgb(29,181,236)]/5 px-3 py-1 rounded-md mb-3">
                                         Pay through UPI and get cashback
                                     </div>
                                     <button
                                         type="button"
-                                        className="bg-[#ec601d] hover:bg-[#d15518] text-white font-bold text-lg py-4 px-10 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-[#ec601d] focus:ring-opacity-50 flex items-center justify-center"
+                                        className="bg-[rgb(29,181,236)] hover:bg-[#d15518] text-white font-bold text-lg py-4 px-10 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-[rgb(29,181,236)] focus:ring-opacity-50 flex items-center justify-center"
                                         onClick={initiateRazorpayPayment} // Make sure you have this function defined
                                     >
                                         <FaRegCreditCard className="mr-2" /> Proceed to Payment
@@ -329,14 +329,14 @@ const PaymentComponent = () => {
                                             <input type="hidden" name="furl" value={`${process.env.NODE_ENV === 'development' ? process.env.REACT_APP_DEV_BACKEND_URL : process.env.REACT_APP_PRODUCTION_BACKEND_URL}/initiatePayment/failed`} />
 
                                             <div className="flex flex-col items-center">
-                                                <div className="text-sm text-[#162856] bg-[#ec601d]/5 px-3 py-1 rounded-md mb-3">
+                                                <div className="text-sm text-[#162856] bg-[rgb(29,181,236)]/5 px-3 py-1 rounded-md mb-3">
                                                     Pay through UPI and get cashback
                                                 </div>
                                                 <div className="flex justify-center">
                                                     
                                                     <button
                                                         type="submit"
-                                                        className="bg-[#ec601d] hover:bg-[#d15518] text-white font-bold text-lg py-4 px-10 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-[#ec601d] focus:ring-opacity-50 flex items-center justify-center"
+                                                        className="bg-[rgb(29,181,236)] hover:bg-[#d15518] text-white font-bold text-lg py-4 px-10 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-[rgb(29,181,236)] focus:ring-opacity-50 flex items-center justify-center"
                                                     >
                                                         <FaRegCreditCard className="mr-2" /> Proceed to Payment
                                                     </button>

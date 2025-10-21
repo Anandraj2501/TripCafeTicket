@@ -212,7 +212,7 @@ const ModernCalendar = ({
             {/* Calendar Header */}
             <div className="flex justify-between items-center mb-4">
                 <button
-                    className="text-gray-600 hover:text-[#ec601d] focus:outline-none"
+                    className="text-gray-600 hover:text-[rgb(29,181,236)] focus:outline-none"
                     onClick={handlePrevMonth}
                 >
                     {/* Left arrow icon */}
@@ -224,13 +224,13 @@ const ModernCalendar = ({
                 <div className="flex flex-col items-center">
                     <div className="flex gap-1">
                         <button
-                            className="text-[#ec601d] font-medium hover:bg-gray-100 rounded px-2 py-1"
+                            className="text-[rgb(29,181,236)] font-medium hover:bg-gray-100 rounded px-2 py-1"
                             onClick={() => setShowMonthSelector(!showMonthSelector)}
                         >
                             {months[currentMonth.getMonth()]}
                         </button>
                         <button
-                            className="text-[#ec601d] font-medium hover:bg-gray-100 rounded px-2 py-1"
+                            className="text-[rgb(29,181,236)] font-medium hover:bg-gray-100 rounded px-2 py-1"
                             onClick={() => setShowYearSelector(!showYearSelector)}
                         >
                             {currentMonth.getFullYear()}
@@ -243,7 +243,7 @@ const ModernCalendar = ({
                             {months.map((month, index) => (
                                 <button
                                     key={month}
-                                    className={`p-2 rounded hover:bg-gray-100 ${index === currentMonth.getMonth() ? 'bg-[#ec601d] text-white hover:bg-[#ec601d]' : ''
+                                    className={`p-2 rounded hover:bg-gray-100 ${index === currentMonth.getMonth() ? 'bg-[rgb(29,181,236)] text-white hover:bg-[rgb(29,181,236)]' : ''
                                         }`}
                                     onClick={() => handleMonthSelect(index)}
                                 >
@@ -259,7 +259,7 @@ const ModernCalendar = ({
                             {years.map(year => (
                                 <button
                                     key={year}
-                                    className={`p-2 rounded hover:bg-gray-100 ${year === currentMonth.getFullYear() ? 'bg-[#ec601d] text-white hover:bg-[#ec601d]' : ''
+                                    className={`p-2 rounded hover:bg-gray-100 ${year === currentMonth.getFullYear() ? 'bg-[rgb(29,181,236)] text-white hover:bg-[rgb(29,181,236)]' : ''
                                         }`}
                                     onClick={() => handleYearSelect(year)}
                                 >
@@ -271,7 +271,7 @@ const ModernCalendar = ({
                 </div>
 
                 <button
-                    className="text-gray-600 hover:text-[#ec601d] focus:outline-none"
+                    className="text-gray-600 hover:text-[rgb(29,181,236)] focus:outline-none"
                     onClick={handleNextMonth}
                 >
                     {/* Right arrow icon */}
@@ -301,9 +301,9 @@ const ModernCalendar = ({
                         className={`
                             w-9 h-9 rounded-full flex items-center justify-center text-sm
                             ${!day.isCurrentMonth ? 'text-gray-400' : 'text-gray-800'}
-                            ${day.isToday ? 'border border-[#ec601d]' : ''}
-                            ${day.isSelected ? 'bg-[#ec601d] text-white' : 'hover:bg-gray-100'}
-                            ${day.inRange && !day.isSelected ? 'bg-[#ec601d]/20' : ''}
+                            ${day.isToday ? 'border border-[rgb(29,181,236)]' : ''}
+                            ${day.isSelected ? 'bg-[rgb(29,181,236)] text-white' : 'hover:bg-gray-100'}
+                            ${day.inRange && !day.isSelected ? 'bg-[rgb(29,181,236)]/20' : ''}
                             ${isDisabled(day) ? 'cursor-not-allowed opacity-50' : 'cursor-pointer'}
                         `}
                         disabled={isDisabled(day)}
@@ -317,13 +317,13 @@ const ModernCalendar = ({
             {/* Action Buttons */}
             <div className="flex justify-between mt-4 border-t pt-4">
                 <button
-                    className="text-sm text-[#ec601d] hover:underline"
+                    className="text-sm text-[rgb(29,181,236)] hover:underline"
                     onClick={handleTodayClick}
                 >
                     Today
                 </button>
                 <button
-                    className="text-sm text-[#ec601d] hover:underline"
+                    className="text-sm text-[rgb(29,181,236)] hover:underline"
                     onClick={handleClearClick}
                 >
                     Clear
@@ -520,7 +520,7 @@ const Insurance = ({ formatDateForDisplay }) => {
                             type="text"
                             value={fromCountry}
                             onChange={(e) => setFromCountry(e.target.value)}
-                            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#ec601d] focus:border-[#ec601d] outline-none transition"
+                            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[rgb(29,181,236)] focus:border-[rgb(29,181,236)] outline-none transition"
                             placeholder="Country"
                         />
                         {showResults && fromResults?.length > 0 && (
@@ -561,7 +561,7 @@ const Insurance = ({ formatDateForDisplay }) => {
                             type="text"
                             value={toCountry}
                             onChange={(e) => setToCountry(e.target.value)}
-                            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#ec601d] focus:border-[#ec601d] outline-none transition"
+                            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[rgb(29,181,236)] focus:border-[rgb(29,181,236)] outline-none transition"
                             placeholder="Country"
                         />
                         {showToResults && toResults?.length > 0 && (
@@ -596,7 +596,7 @@ const Insurance = ({ formatDateForDisplay }) => {
                                     {displayDepartureDate || "DD/MM/YYYY"}
                                 </span>
                                 {/* Calendar icon */}
-                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-[#ec601d]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-[rgb(29,181,236)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                                 </svg>
                             </div>
@@ -620,7 +620,7 @@ const Insurance = ({ formatDateForDisplay }) => {
                                     {displayReturnDate || "DD/MM/YYYY"}
                                 </span>
                                 {/* Calendar icon */}
-                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-[#ec601d]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-[rgb(29,181,236)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                                 </svg>
                             </div>
@@ -634,7 +634,7 @@ const Insurance = ({ formatDateForDisplay }) => {
                     <label className="block text-sm font-medium text-gray-700 mb-1">Purpose</label>
                     <select
                         name="purpose"
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#ec601d] focus:border-[#ec601d] outline-none transition appearance-none bg-white"
+                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[rgb(29,181,236)] focus:border-[rgb(29,181,236)] outline-none transition appearance-none bg-white"
                         value={insuranceData.purpose}
                         onChange={handleChange}
                     >
@@ -650,7 +650,7 @@ const Insurance = ({ formatDateForDisplay }) => {
 
                 <button
                     // onClick={handleValidation}
-                    className="w-full mt-6 bg-[#ec601d] hover:bg-[#e3733f] text-white font-medium py-3 px-6 rounded-lg transition duration-300 transform hover:scale-105"
+                    className="w-full mt-6 bg-[rgb(29,181,236)] hover:bg-[#e3733f] text-white font-medium py-3 px-6 rounded-lg transition duration-300 transform hover:scale-105"
                     onClick={handleNavigation}
                 >
                     Get Insurance

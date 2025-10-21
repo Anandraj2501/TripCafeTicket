@@ -109,7 +109,7 @@ export default function Testimonials() {
                         ))}
                     </Carousel>
                     <Link to="/review" className='flex justify-center items-center mt-5'>
-                        <button className="bg-red-500 text-white px-4 py-2 rounded-md hover:bg-red-600 transition duration-300">View All Experience</button></Link>
+                        <button className="bg-[rgb(29,181,236)] text-white px-4 py-2 rounded-md hover:bg-red-600 transition duration-300">View All Experience</button></Link>
                 </div>
             </section>
         </>

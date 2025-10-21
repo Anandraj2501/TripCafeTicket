@@ -22,7 +22,7 @@ const DummyTickets = () => {
             {/* Mobile View - Title followed by search form */}
             <div className="flex lg:hidden flex-col items-center text-center">
               <h1 className="text-2xl sm:text-4xl font-bold mb-6">
-                Embassy-Ready Flight Reservation – Instant & Affordable
+                Get Verified Flight & Hotel Booking for Only ₹500
               </h1>
               <div className="w-full">
                 <LeftSide />
@@ -39,11 +39,10 @@ const DummyTickets = () => {
               {/* Content - Bottom on mobile (centered), left on desktop */}
               <div className="w-full order-2 lg:order-1 lg:w-[60%] flex flex-col items-center text-center lg:items-start lg:text-left justify-center gap-y-4 md:gap-y-6">
                 <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-                  Embassy-Ready Flight Reservation – Instant & Affordable
+                  Get Verified Flight & Hotel Booking for Only ₹500
                 </h1>
                 <p className="text-[#333] text-lg sm:text-xl font-medium max-w-[600px]">
-                  With TripCafeTicket.com, book an all-purpose flight reservation starting at just ₹500.
-                  Perfect for visa submissions or travel documentation, our flight bookings are processed instantly and ready to download right after checkout — fast, simple, and reliable.
+                  TripCafeTicket.com Resrevation, Perfect for visa applications, travel proof, or return confirmation. Quick, reliable, and hassle-free!
                 </p>
                 <p> <b>500</b> tickets booked for <b>350+</b> happy customers</p>
               </div>

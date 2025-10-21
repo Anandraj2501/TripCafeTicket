@@ -38,7 +38,7 @@ const Navbar = () => {
 
   // });
   const navigation = [
-    { name: 'Dummy Tickets', href: '/', current: true },
+    { name: 'Home', href: '/', current: true },
     { name: 'About Us', href: '/about-us', current: false },
     { name: 'Faq', href: '/faqs', current: false },
     { name: 'Contact Us', href: '/contact-us', current: false },
@@ -56,7 +56,7 @@ const Navbar = () => {
               <div className="relative flex h-16 items-center justify-between">
                 <div className="absolute inset-y-0 right-0 flex items-center sm:hidden">
                   {/* Mobile menu button */}
-                  <DisclosureButton className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-700 hover:bg-gray-100 hover:text-[#ec601d] focus:outline-none focus:ring-2 focus:ring-inset focus:ring-[#ec601d]">
+                  <DisclosureButton className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-700 hover:bg-gray-100 hover:text-[rgb(29,181,236)] focus:outline-none focus:ring-2 focus:ring-inset focus:ring-[rgb(29,181,236)]">
                     <span className="absolute -inset-0.5" />
                     <span className="sr-only">Open main menu</span>
                     {open ? (
@@ -90,7 +90,7 @@ const Navbar = () => {
                         aria-current={item.current ? 'page' : undefined}
                         style={{ whiteSpace: 'nowrap' }}
                         className={classNames(
-                          item.current ? 'border-b-2 border-b-[#ec601d] text-[#ec601d]' : 'text-black hover:text-[#ec601d] hover:border-b-2 hover:border-b-[#ec601d]',
+                          item.current ? 'border-b-2 border-b-[rgb(29,181,236)] text-[rgb(29,181,236)]' : 'text-black hover:text-[rgb(29,181,236)] hover:border-b-2 hover:border-b-[rgb(29,181,236)]',
                           'px-3 py-2 text-sm font-medium',
                         )}
                       >
@@ -114,7 +114,7 @@ const Navbar = () => {
                       href={item.href}
                       aria-current={item.current ? 'page' : undefined}
                       className={classNames(
-                        item.current ? 'border-b-2 border-b-[#ec601d] text-[#ec601d]' : 'text-black hover:text-[#ec601d] hover:border-b-2 hover:border-b-[#ec601d]',
+                        item.current ? 'border-b-2 border-b-[rgb(29,181,236)] text-[rgb(29,181,236)]' : 'text-black hover:text-[rgb(29,181,236)] hover:border-b-2 hover:border-b-[rgb(29,181,236)]',
                         'block px-3 py-2 text-sm font-medium',
                       )}
                     >

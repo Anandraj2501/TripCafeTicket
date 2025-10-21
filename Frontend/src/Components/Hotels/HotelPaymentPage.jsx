@@ -80,13 +80,13 @@ const HotelPaymentPage = () => {
             <Navbar />
             <section className="min-h-screen bg-gradient-to-b from-white via-white to-orange-100/60 py-8 px-[5.5%]">
                 <div className="w-full max-w-5xl mx-auto">
-                    <h2 className="text-left font-bold text-3xl md:text-4xl text-[#ec601d] mb-10 pb-2 border-b-2 border-orange-200 inline-block">
+                    <h2 className="text-left font-bold text-3xl md:text-4xl text-[rgb(29,181,236)] mb-10 pb-2 border-b-2 border-orange-200 inline-block">
                         Review Booking
                     </h2>
 
-                    <div className="bg-white rounded-xl shadow-md overflow-hidden border border-[#ec601d]/20">
+                    <div className="bg-white rounded-xl shadow-md overflow-hidden border border-[rgb(29,181,236)]/20">
                         {/* Ticket header */}
-                        <div className="bg-[#ec601d] py-5 px-6 text-white">
+                        <div className="bg-[rgb(29,181,236)] py-5 px-6 text-white">
                             <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
                                 <div>
                                     <h1 className="text-2xl font-bold">Hello, {initialData?.contactDetails?.name}!</h1>
@@ -103,18 +103,18 @@ const HotelPaymentPage = () => {
                             {/* Payment details */}
                             <div className="mb-8">
                                 <h3 className="text-xl font-semibold text-[#162856] mb-4 flex items-center">
-                                    <FaRegCreditCard className="mr-2 text-[#ec601d]" /> Payment Details
+                                    <FaRegCreditCard className="mr-2 text-[rgb(29,181,236)]" /> Payment Details
                                 </h3>
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                    <div className="bg-gray-50 rounded-lg p-4 flex items-center border border-gray-100 hover:border-[#ec601d]/20 transition-all">
-                                        <div className="w-10 h-10 rounded-full bg-[#ec601d]/10 flex items-center justify-center text-[#ec601d] mr-4">₹</div>
+                                    <div className="bg-gray-50 rounded-lg p-4 flex items-center border border-gray-100 hover:border-[rgb(29,181,236)]/20 transition-all">
+                                        <div className="w-10 h-10 rounded-full bg-[rgb(29,181,236)]/10 flex items-center justify-center text-[rgb(29,181,236)] mr-4">₹</div>
                                         <div>
                                             <p className="text-sm text-gray-500">Amount</p>
                                             <p className="font-semibold text-[#162856]">₹{totalAmount}</p>
                                         </div>
                                     </div>
-                                    <div className="bg-gray-50 rounded-lg p-4 flex items-center border border-gray-100 hover:border-[#ec601d]/20 transition-all">
-                                        <div className="w-10 h-10 rounded-full bg-[#ec601d]/10 flex items-center justify-center text-[#ec601d] mr-4">
+                                    <div className="bg-gray-50 rounded-lg p-4 flex items-center border border-gray-100 hover:border-[rgb(29,181,236)]/20 transition-all">
+                                        <div className="w-10 h-10 rounded-full bg-[rgb(29,181,236)]/10 flex items-center justify-center text-[rgb(29,181,236)] mr-4">
                                             <FaUserCircle />
                                         </div>
                                         <div>
@@ -122,8 +122,8 @@ const HotelPaymentPage = () => {
                                             <p className="font-semibold text-[#162856] truncate">{initialData?.contactDetails?.name}</p>
                                         </div>
                                     </div>
-                                    <div className="bg-gray-50 rounded-lg p-4 flex items-center border border-gray-100 hover:border-[#ec601d]/20 transition-all">
-                                        <div className="w-10 h-10 rounded-full bg-[#ec601d]/10 flex items-center justify-center text-[#ec601d] mr-4">
+                                    <div className="bg-gray-50 rounded-lg p-4 flex items-center border border-gray-100 hover:border-[rgb(29,181,236)]/20 transition-all">
+                                        <div className="w-10 h-10 rounded-full bg-[rgb(29,181,236)]/10 flex items-center justify-center text-[rgb(29,181,236)] mr-4">
                                             <FaPhoneAlt />
                                         </div>
                                         <div>
@@ -131,8 +131,8 @@ const HotelPaymentPage = () => {
                                             <p className="font-semibold text-[#162856]">{initialData?.contactDetails?.phone}</p>
                                         </div>
                                     </div>
-                                    <div className="bg-gray-50 rounded-lg p-4 flex items-center border border-gray-100 hover:border-[#ec601d]/20 transition-all">
-                                        <div className="w-10 h-10 rounded-full bg-[#ec601d]/10 flex items-center justify-center text-[#ec601d] mr-4">
+                                    <div className="bg-gray-50 rounded-lg p-4 flex items-center border border-gray-100 hover:border-[rgb(29,181,236)]/20 transition-all">
+                                        <div className="w-10 h-10 rounded-full bg-[rgb(29,181,236)]/10 flex items-center justify-center text-[rgb(29,181,236)] mr-4">
                                             <FaEnvelope />
                                         </div>
                                         <div>
@@ -146,7 +146,7 @@ const HotelPaymentPage = () => {
                             {/* Passengers section */}
                             <div className="mb-8">
                                 <h3 className="text-xl font-semibold text-[#162856] mb-4 flex items-center">
-                                    <FaUserCircle className="mr-2 text-[#ec601d]" /> Guests
+                                    <FaUserCircle className="mr-2 text-[rgb(29,181,236)]" /> Guests
                                 </h3>
                                 <div className="bg-gray-50 rounded-lg border border-gray-100">
                                     <div className="bg-gray-100 py-3 px-4 rounded-t-lg border-b border-gray-200">
@@ -160,7 +160,7 @@ const HotelPaymentPage = () => {
                                             <div key={index} className="py-3 px-4 hover:bg-white transition-colors">
                                                 <div className="grid grid-cols-12 items-center">
                                                     <div className="col-span-1">
-                                                        <div className="w-8 h-8 rounded-full bg-[#ec601d]/10 flex items-center justify-center text-[#ec601d] font-medium">
+                                                        <div className="w-8 h-8 rounded-full bg-[rgb(29,181,236)]/10 flex items-center justify-center text-[rgb(29,181,236)] font-medium">
                                                             {index + 1}
                                                         </div>
                                                     </div>
@@ -177,12 +177,12 @@ const HotelPaymentPage = () => {
                             {/* Hotel details */}
                             <div className="mb-8">
                                 <h3 className="text-xl font-semibold text-[#162856] mb-4 flex items-center">
-                                    <FaBed className="mr-2 text-[#ec601d]" /> Hotel Details
+                                    <FaBed className="mr-2 text-[rgb(29,181,236)]" /> Hotel Details
                                 </h3>
 
                                 <div className="bg-gray-50 rounded-lg p-5 border border-gray-100 mb-4">
                                     <div className="flex items-center">
-                                        <div className="w-12 h-12 rounded-full bg-[#ec601d]/10 flex items-center justify-center text-[#ec601d] mr-4">
+                                        <div className="w-12 h-12 rounded-full bg-[rgb(29,181,236)]/10 flex items-center justify-center text-[rgb(29,181,236)] mr-4">
                                             <MdHotel className="text-xl" />
                                         </div>
                                         <div>
@@ -202,7 +202,7 @@ const HotelPaymentPage = () => {
                                         </div>
                                         <div className="pt-2 border-t border-dashed border-gray-200 flex justify-between font-medium">
                                             <span>Total Amount</span>
-                                            <span className="text-[#ec601d]">₹{totalAmount}</span>
+                                            <span className="text-[rgb(29,181,236)]">₹{totalAmount}</span>
                                         </div>
                                     </div>
                                 </div>
@@ -220,7 +220,7 @@ const HotelPaymentPage = () => {
                                  
                                     <button
                                         type="button"
-                                        className="bg-[#ec601d] hover:bg-[#d15518] text-white font-bold text-lg py-4 px-10 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-[#ec601d] focus:ring-opacity-50 flex items-center justify-center"
+                                        className="bg-[rgb(29,181,236)] hover:bg-[#d15518] text-white font-bold text-lg py-4 px-10 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-[rgb(29,181,236)] focus:ring-opacity-50 flex items-center justify-center"
                                         // onClick={initiatePhonePePayment}
                                     >
                                         <FaRegCreditCard className="mr-2" /> Proceed to Payment
@@ -230,7 +230,7 @@ const HotelPaymentPage = () => {
                                 <div className="flex justify-center">
                                     <button
                                         type="button"
-                                        className="bg-[#ec601d] hover:bg-[#d15518] text-white font-bold text-lg py-4 px-10 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-[#ec601d] focus:ring-opacity-50 flex items-center justify-center"
+                                        className="bg-[rgb(29,181,236)] hover:bg-[#d15518] text-white font-bold text-lg py-4 px-10 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-[rgb(29,181,236)] focus:ring-opacity-50 flex items-center justify-center"
                                         onClick={initiateRazorpayPayment} // Make sure you have this function defined
                                     >
                                         <FaRegCreditCard className="mr-2" /> Proceed to Payment
@@ -251,7 +251,7 @@ const HotelPaymentPage = () => {
                                     <div className="flex justify-center">
                                         <button
                                             type="submit"
-                                            className="bg-[#ec601d] hover:bg-[#d15518] text-white font-bold text-lg py-4 px-10 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-[#ec601d] focus:ring-opacity-50 flex items-center justify-center"
+                                            className="bg-[rgb(29,181,236)] hover:bg-[#d15518] text-white font-bold text-lg py-4 px-10 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-[rgb(29,181,236)] focus:ring-opacity-50 flex items-center justify-center"
                                         >
                                             <FaRegCreditCard className="mr-2" /> Proceed to Payment
                                         </button>

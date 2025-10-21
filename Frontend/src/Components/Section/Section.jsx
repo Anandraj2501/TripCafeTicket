@@ -11,7 +11,7 @@ const Section = ({ heading,image }) => {
                     <div className="p-3 mt-4">
                         <span className=" text-lg font-bold">Title</span>
                         <span className="location-tag mt-4 flex items-center bg-orange-200 rounded-full w-[90px] p-2">
-                            <span><CiLocationOn size={20} style={{ color: '#ec601d' }} /></span>
+                            <span><CiLocationOn size={20} style={{ color: 'rgb(29,181,236)' }} /></span>
                             <span className="ml-2">Dubai</span>
                         </span>
                         
@@ -21,7 +21,7 @@ const Section = ({ heading,image }) => {
                                 <p className=" text-xl font-bold">Rs 2987</p>
                                 <p className=" text-base">Per Trip</p>
                             </span>
-                            <button className=" hover:bg-[#e3733f] bg-[#ec601d] text-white py-3 px-5 rounded-lg text-lg font-bold">View Trip</button>
+                            <button className=" hover:bg-[#e3733f] bg-[rgb(29,181,236)] text-white py-3 px-5 rounded-lg text-lg font-bold">View Trip</button>
                         </div>
                     </div>
                 </div>
@@ -33,7 +33,7 @@ const Section = ({ heading,image }) => {
                     <div className="p-3 mt-4">
                         <span className=" text-lg font-bold">Title</span>
                         <span className="location-tag mt-4 flex items-center bg-orange-200 rounded-full w-[90px] p-2">
-                            <span><CiLocationOn size={20} style={{ color: '#ec601d' }} /></span>
+                            <span><CiLocationOn size={20} style={{ color: 'rgb(29,181,236)' }} /></span>
                             <span className="ml-2">Dubai</span>
                         </span>
                         
@@ -43,7 +43,7 @@ const Section = ({ heading,image }) => {
                                 <p className=" text-xl font-bold">Rs 2987</p>
                                 <p className=" text-base">Per Trip</p>
                             </span>
-                            <button className=" hover:bg-[#e3733f] bg-[#ec601d] text-white py-3 px-5 rounded-lg text-lg font-bold">View Trip</button>
+                            <button className=" hover:bg-[#e3733f] bg-[rgb(29,181,236)] text-white py-3 px-5 rounded-lg text-lg font-bold">View Trip</button>
                         </div>
                     </div>
                 </div>
@@ -55,7 +55,7 @@ const Section = ({ heading,image }) => {
                     <div className="p-3 mt-4">
                         <span className=" text-lg font-bold">Title</span>
                         <span className="location-tag mt-4 flex items-center bg-orange-200 rounded-full w-[90px] p-2">
-                            <span><CiLocationOn size={20} style={{ color: '#ec601d' }} /></span>
+                            <span><CiLocationOn size={20} style={{ color: 'rgb(29,181,236)' }} /></span>
                             <span className="ml-2">Dubai</span>
                         </span>
                         
@@ -65,7 +65,7 @@ const Section = ({ heading,image }) => {
                                 <p className=" text-xl font-bold">Rs 2987</p>
                                 <p className=" text-base">Per Trip</p>
                             </span>
-                            <button className=" hover:bg-[#e3733f] bg-[#ec601d] text-white py-3 px-5 rounded-lg text-lg font-bold">View Trip</button>
+                            <button className=" hover:bg-[#e3733f] bg-[rgb(29,181,236)] text-white py-3 px-5 rounded-lg text-lg font-bold">View Trip</button>
                         </div>
                     </div>
                 </div>
@@ -77,7 +77,7 @@ const Section = ({ heading,image }) => {
                     <div className="p-3 mt-4">
                         <span className=" text-lg font-bold">Title</span>
                         <span className="location-tag mt-4 flex items-center bg-orange-200 rounded-full w-[90px] p-2">
-                            <span><CiLocationOn size={20} style={{ color: '#ec601d' }} /></span>
+                            <span><CiLocationOn size={20} style={{ color: 'rgb(29,181,236)' }} /></span>
                             <span className="ml-2">Dubai</span>
                         </span>
                         
@@ -87,7 +87,7 @@ const Section = ({ heading,image }) => {
                                 <p className=" text-xl font-bold">Rs 2987</p>
                                 <p className=" text-base">Per Trip</p>
                             </span>
-                            <button className=" hover:bg-[#e3733f] bg-[#ec601d] text-white py-3 px-5 rounded-lg text-lg font-bold">View Trip</button>
+                            <button className=" hover:bg-[#e3733f] bg-[rgb(29,181,236)] text-white py-3 px-5 rounded-lg text-lg font-bold">View Trip</button>
                         </div>
                     </div>
                 </div>

@@ -63,7 +63,7 @@ const Steps = () => {
     const benefits = [
         {
             icon: (
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-[#ec601d]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-[rgb(29,181,236)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
                 </svg>
             ),
@@ -71,7 +71,7 @@ const Steps = () => {
         },
         {
             icon: (
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-[#ec601d]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-[rgb(29,181,236)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z" />
                 </svg>
             ),
@@ -79,7 +79,7 @@ const Steps = () => {
         },
         {
             icon: (
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-[#ec601d]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-[rgb(29,181,236)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                 </svg>
             ),
@@ -97,7 +97,7 @@ const Steps = () => {
         },
         {
             icon: (
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-[#ec601d]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-[rgb(29,181,236)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
             ),
@@ -118,7 +118,7 @@ const Steps = () => {
                                {benefits.map((benefit, index) => (
                                    <div 
                                        key={index}
-                                       className="min-w-full p-4 snap-start flex-shrink-0 bg-white rounded-xl shadow-md border-t-4 border-[#ec601d] hover:shadow-lg transition-all duration-300 flex flex-col items-center text-center h-full"
+                                       className="min-w-full p-4 snap-start flex-shrink-0 bg-white rounded-xl shadow-md border-t-4 border-[rgb(29,181,236)] hover:shadow-lg transition-all duration-300 flex flex-col items-center text-center h-full"
                                    >
                                        <div className="h-16 w-16 flex items-center justify-center bg-orange-50 rounded-full mb-3">
                                            {benefit.icon}
@@ -131,7 +131,7 @@ const Steps = () => {
                            {/* Navigation buttons */}
                            <button 
                                onClick={handlePrev} 
-                               className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-1/2 bg-[#ec601d] text-white rounded-full p-2 shadow-md z-10"
+                               className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-1/2 bg-[rgb(29,181,236)] text-white rounded-full p-2 shadow-md z-10"
                            >
                                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
@@ -140,7 +140,7 @@ const Steps = () => {
                            
                            <button 
                                onClick={handleNext} 
-                               className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/2 bg-[#ec601d] text-white rounded-full p-2 shadow-md z-10"
+                               className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/2 bg-[rgb(29,181,236)] text-white rounded-full p-2 shadow-md z-10"
                            >
                                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -160,7 +160,7 @@ const Steps = () => {
                                            });
                                        }}
                                        className={`h-2 rounded-full transition-all ${
-                                           currentIndex === index ? 'w-4 bg-[#ec601d]' : 'w-2 bg-gray-300'
+                                           currentIndex === index ? 'w-4 bg-[rgb(29,181,236)]' : 'w-2 bg-gray-300'
                                        }`}
                                    />
                                ))}
@@ -171,7 +171,7 @@ const Steps = () => {
                            {benefits.map((benefit, index) => (
                                <div 
                                    key={index}
-                                   className="bg-white p-4 rounded-xl shadow-md border-t-4 border-[#ec601d] hover:shadow-lg transition-all duration-300 flex flex-col items-center text-center h-full"
+                                   className="bg-white p-4 rounded-xl shadow-md border-t-4 border-[rgb(29,181,236)] hover:shadow-lg transition-all duration-300 flex flex-col items-center text-center h-full"
                                >
                                    <div className="h-16 w-16 flex items-center justify-center bg-orange-50 rounded-full mb-3">
                                        {benefit.icon}
@@ -196,7 +196,7 @@ const Steps = () => {
             <div className='card-img h-[150px] sm:h-[180px] md:h-[200px]'>
                 <img src="images/Flight_Booking_Step_2.svg" alt='' className="h-full w-full object-contain"/>
             </div>
-            <h3 className='text-lg sm:text-xl font-bold text-center border-b-2 border-dashed border-[#ec601d]'>SEARCH FOR<br/>FLIGHT/HOTEL</h3>
+            <h3 className='text-lg sm:text-xl font-bold text-center border-b-2 border-dashed border-[rgb(29,181,236)]'>SEARCH FOR<br/>FLIGHT/HOTEL</h3>
             <p className='text-sm sm:text-base font-[400] text-center'>Provide details & run the flight or hotel search query to pull out available results</p>
            </div>
           
@@ -204,7 +204,7 @@ const Steps = () => {
             <div className='card-img h-[150px] sm:h-[180px] md:h-[200px]'>
                 <img src="images/Flight_Booking_Step_3.svg" alt='' className="h-full w-full object-contain"/>
             </div>
-            <h3 className='text-lg sm:text-xl font-bold text-center border-b-2 border-dashed border-[#ec601d]'>SELECT<br/>FLIGHT/HOTEL</h3>
+            <h3 className='text-lg sm:text-xl font-bold text-center border-b-2 border-dashed border-[rgb(29,181,236)]'>SELECT<br/>FLIGHT/HOTEL</h3>
             <p className='text-sm sm:text-base font-[400] text-center'>View available flight or hotel details and select the most relevant travel itinerary</p>
            </div>
 
@@ -213,7 +213,7 @@ const Steps = () => {
             <div className='card-img h-[150px] sm:h-[180px] md:h-[200px]'>
                 <img src="images/Step_4.svg" alt='' className="h-full w-full object-contain"/>
             </div>
-            <h3 className='text-lg sm:text-xl font-bold text-center border-b-2 border-dashed border-[#ec601d]'>CONFIRM YOUR<br/>FLIGHT/HOTEL BOOKING</h3>
+            <h3 className='text-lg sm:text-xl font-bold text-center border-b-2 border-dashed border-[rgb(29,181,236)]'>CONFIRM YOUR<br/>FLIGHT/HOTEL BOOKING</h3>
             <p className='text-sm sm:text-base font-[400] text-center'>Enter traveler/guest information, and make the payment to confirm your flight/hotel booking</p>
            </div>
 
@@ -222,7 +222,7 @@ const Steps = () => {
             <div className='card-img h-[150px] sm:h-[180px] md:h-[200px]'>
                 <img src="images/step_4-1.svg" alt='' className="h-full w-full object-contain"/>
             </div>
-            <h3 className='text-lg sm:text-xl font-bold text-center border-b-2 border-dashed border-[#ec601d]'>DOWNLOAD<br/>YOUR BOOKING</h3>
+            <h3 className='text-lg sm:text-xl font-bold text-center border-b-2 border-dashed border-[rgb(29,181,236)]'>DOWNLOAD<br/>YOUR BOOKING</h3>
             <p className='text-sm sm:text-base font-[400] text-center'>Your flight or hotel booking confirmation receipt is available for download or print</p>
            </div>
            </div>

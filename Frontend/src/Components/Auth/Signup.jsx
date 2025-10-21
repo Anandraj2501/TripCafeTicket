@@ -63,7 +63,7 @@ const Signup = () => {
                                 <span>Already have an Account !</span>
                                 <Link to="/login"><span className=" cursor-pointer">Login</span></Link>
                             </div>
-                            <button onClick={handleSignup} className="text-lg bg-[#ec601d] rounded-md px-[10px] py-[5px] w-full">
+                            <button onClick={handleSignup} className="text-lg bg-[rgb(29,181,236)] rounded-md px-[10px] py-[5px] w-full">
                             {loading ? "Loading...":"Signup"}
                             </button>
                         </div>

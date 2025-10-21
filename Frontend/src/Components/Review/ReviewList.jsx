@@ -70,7 +70,7 @@ const ReviewsList = () => {
                 <div className='flex justify-center mb-8'>
                     <button
                         onClick={() => setOpen(true)}
-                        className="flex items-center px-4 py-2 text-white bg-[#ec601d] rounded-md shadow-md hover:bg-[#ec601d]focus:outline-none focus:ring-2 focus:ring-[#ec601d] focus:ring-offset-2 transition-all duration-200 transform hover:scale-105"
+                        className="flex items-center px-4 py-2 text-white bg-[rgb(29,181,236)] rounded-md shadow-md hover:bg-[rgb(29,181,236)]focus:outline-none focus:ring-2 focus:ring-[rgb(29,181,236)] focus:ring-offset-2 transition-all duration-200 transform hover:scale-105"
                     >
                         <MessageSquarePlus size={20} className="mr-2" />
                         <span className="font-medium">Submit Review</span>

@@ -213,7 +213,7 @@ const ModernCalendar = ({
             {/* Calendar Header */}
             <div className="flex justify-between items-center mb-4">
                 <button
-                    className="text-gray-600 hover:text-[#ec601d] focus:outline-none"
+                    className="text-gray-600 hover:text-[rgb(29,181,236)] focus:outline-none"
                     onClick={handlePrevMonth}
                 >
                     {/* Left arrow icon */}
@@ -225,13 +225,13 @@ const ModernCalendar = ({
                 <div className="flex flex-col items-center">
                     <div className="flex gap-1">
                         <button
-                            className="text-[#ec601d] font-medium hover:bg-gray-100 rounded px-2 py-1"
+                            className="text-[rgb(29,181,236)] font-medium hover:bg-gray-100 rounded px-2 py-1"
                             onClick={() => setShowMonthSelector(!showMonthSelector)}
                         >
                             {months[currentMonth.getMonth()]}
                         </button>
                         <button
-                            className="text-[#ec601d] font-medium hover:bg-gray-100 rounded px-2 py-1"
+                            className="text-[rgb(29,181,236)] font-medium hover:bg-gray-100 rounded px-2 py-1"
                             onClick={() => setShowYearSelector(!showYearSelector)}
                         >
                             {currentMonth.getFullYear()}
@@ -244,7 +244,7 @@ const ModernCalendar = ({
                             {months.map((month, index) => (
                                 <button
                                     key={month}
-                                    className={`p-2 rounded hover:bg-gray-100 ${index === currentMonth.getMonth() ? 'bg-[#ec601d] text-white hover:bg-[#ec601d]' : ''
+                                    className={`p-2 rounded hover:bg-gray-100 ${index === currentMonth.getMonth() ? 'bg-[rgb(29,181,236)] text-white hover:bg-[rgb(29,181,236)]' : ''
                                         }`}
                                     onClick={() => handleMonthSelect(index)}
                                 >
@@ -260,7 +260,7 @@ const ModernCalendar = ({
                             {years.map(year => (
                                 <button
                                     key={year}
-                                    className={`p-2 rounded hover:bg-gray-100 ${year === currentMonth.getFullYear() ? 'bg-[#ec601d] text-white hover:bg-[#ec601d]' : ''
+                                    className={`p-2 rounded hover:bg-gray-100 ${year === currentMonth.getFullYear() ? 'bg-[rgb(29,181,236)] text-white hover:bg-[rgb(29,181,236)]' : ''
                                         }`}
                                     onClick={() => handleYearSelect(year)}
                                 >
@@ -272,7 +272,7 @@ const ModernCalendar = ({
                 </div>
 
                 <button
-                    className="text-gray-600 hover:text-[#ec601d] focus:outline-none"
+                    className="text-gray-600 hover:text-[rgb(29,181,236)] focus:outline-none"
                     onClick={handleNextMonth}
                 >
                     {/* Right arrow icon */}
@@ -302,9 +302,9 @@ const ModernCalendar = ({
                         className={`
                             w-9 h-9 rounded-full flex items-center justify-center text-sm
                             ${!day.isCurrentMonth ? 'text-gray-400' : 'text-gray-800'}
-                            ${day.isToday ? 'border border-[#ec601d]' : ''}
-                            ${day.isSelected ? 'bg-[#ec601d] text-white' : 'hover:bg-gray-100'}
-                            ${day.inRange && !day.isSelected ? 'bg-[#ec601d]/20' : ''}
+                            ${day.isToday ? 'border border-[rgb(29,181,236)]' : ''}
+                            ${day.isSelected ? 'bg-[rgb(29,181,236)] text-white' : 'hover:bg-gray-100'}
+                            ${day.inRange && !day.isSelected ? 'bg-[rgb(29,181,236)]/20' : ''}
                             ${isDisabled(day) ? 'cursor-not-allowed opacity-50' : 'cursor-pointer'}
                         `}
                         disabled={isDisabled(day)}
@@ -318,13 +318,13 @@ const ModernCalendar = ({
             {/* Action Buttons */}
             <div className="flex justify-between mt-4 border-t pt-4">
                 <button
-                    className="text-sm text-[#ec601d] hover:underline"
+                    className="text-sm text-[rgb(29,181,236)] hover:underline"
                     onClick={handleTodayClick}
                 >
                     Today
                 </button>
                 <button
-                    className="text-sm text-[#ec601d] hover:underline"
+                    className="text-sm text-[rgb(29,181,236)] hover:underline"
                     onClick={handleClearClick}
                 >
                     Clear
@@ -667,7 +667,7 @@ const LeftSide = () => {
                     <button
                         className={`w-1/3 py-3 px-2 text-center font-medium transition-colors duration-300
       text-xs sm:text-sm md:text-base
-      ${activeButton === 'Flight' ? 'bg-[#ec601d] text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'}`}
+      ${activeButton === 'Flight' ? 'bg-[rgb(29,181,236)] text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'}`}
                         onClick={() => setActiveButton('Flight')}
                     >
                         <i className="fas fa-plane mr-1 text-xs sm:text-sm md:text-base"></i> Flight
@@ -676,7 +676,7 @@ const LeftSide = () => {
                     <button
                         className={`w-1/3 py-3 px-2 text-center font-medium transition-colors duration-300
       text-xs sm:text-sm md:text-base
-      ${activeButton === 'Hotels' ? 'bg-[#ec601d] text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'}`}
+      ${activeButton === 'Hotels' ? 'bg-[rgb(29,181,236)] text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'}`}
                         onClick={() => setActiveButton('Hotels')}
                     >
                         <i className="fas fa-hotel mr-1 text-xs sm:text-sm md:text-base"></i> Hotels
@@ -685,7 +685,7 @@ const LeftSide = () => {
                     <button
                         className={`w-1/3 py-3 px-2 text-center font-medium transition-colors duration-300
       text-xs sm:text-sm md:text-base
-      ${activeButton === 'Insurance' ? 'bg-[#ec601d] text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'}`}
+      ${activeButton === 'Insurance' ? 'bg-[rgb(29,181,236)] text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'}`}
                         onClick={() => setActiveButton('Insurance')}
                     >
                         <i className="fas fa-shield-alt mr-1 text-xs sm:text-sm md:text-base"></i> Insurance
@@ -722,13 +722,13 @@ const LeftSide = () => {
                             {/* Trip Type Toggle */}
                             <div className="flex items-center justify-center space-x-4 mb-6">
                                 <button
-                                    className={`px-4 py-2 rounded-full ${tripType === "One Way" ? 'bg-[#ec601d] text-white' : 'bg-gray-100 text-gray-700'}`}
+                                    className={`px-4 py-2 rounded-full ${tripType === "One Way" ? 'bg-[rgb(29,181,236)] text-white' : 'bg-gray-100 text-gray-700'}`}
                                     onClick={() => setTripType("One Way")}
                                 >
                                     One Way
                                 </button>
                                 <button
-                                    className={`px-4 py-2 rounded-full ${tripType === "Round Trip" ? 'bg-[#ec601d] text-white' : 'bg-gray-100 text-gray-700'}`}
+                                    className={`px-4 py-2 rounded-full ${tripType === "Round Trip" ? 'bg-[rgb(29,181,236)] text-white' : 'bg-gray-100 text-gray-700'}`}
                                     onClick={() => setTripType("Round Trip")}
                                 >
                                     Round Trip
@@ -747,7 +747,7 @@ const LeftSide = () => {
                                                     setSelectedFromAirport(null);
                                                     setJustSelectedFrom(false);
                                                 }}
-                                                className="w-full px-4 border border-gray-300 rounded-lg bg-white flex items-center justify-between h-[100px] sm:h-16 cursor-pointer hover:border-[#ec601d] transition-colors duration-200"
+                                                className="w-full px-4 border border-gray-300 rounded-lg bg-white flex items-center justify-between h-[100px] sm:h-16 cursor-pointer hover:border-[rgb(29,181,236)] transition-colors duration-200"
                                             >
                                                 <div className="text-left flex flex-col justify-center w-full">
                                                     <div className="text-lg font-semibold text-gray-800 leading-tight">{selectedFromAirport.city?.name || ''}</div>
@@ -763,7 +763,7 @@ const LeftSide = () => {
                                                     setSelectedFromAirport(null);
                                                     setJustSelectedFrom(false);
                                                 }}
-                                                className="w-full px-4 py-3 h-[100px] sm:h-16 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#ec601d] focus:border-[#ec601d] outline-none transition"
+                                                className="w-full px-4 py-3 h-[100px] sm:h-16 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[rgb(29,181,236)] focus:border-[rgb(29,181,236)] outline-none transition"
                                                 placeholder="City or Airport"
                                             />
                                         )}
@@ -811,7 +811,7 @@ const LeftSide = () => {
                                                     setSelectedToAirport(null);
                                                     setJustSelectedTo(false);
                                                 }}
-                                                className="w-full px-4 border border-gray-300 rounded-lg bg-white flex items-center justify-between h-[100px] sm:h-16 cursor-pointer hover:border-[#ec601d] transition-colors duration-200"
+                                                className="w-full px-4 border border-gray-300 rounded-lg bg-white flex items-center justify-between h-[100px] sm:h-16 cursor-pointer hover:border-[rgb(29,181,236)] transition-colors duration-200"
                                             >
                                                 <div className="text-left flex flex-col justify-center w-full">
                                                     <div className="text-lg font-semibold text-gray-800 leading-tight">{selectedToAirport.city?.name || ''}</div>
@@ -823,7 +823,7 @@ const LeftSide = () => {
                                                 type="text"
                                                 value={to}
                                                 onChange={(e) => { setTo(e.target.value); setSelectedToAirport(null); setJustSelectedTo(false); }}
-                                                className="w-full px-4 py-3 h-[100px] sm:h-16 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#ec601d] focus:border-[#ec601d] outline-none transition"
+                                                className="w-full px-4 py-3 h-[100px] sm:h-16 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[rgb(29,181,236)] focus:border-[rgb(29,181,236)] outline-none transition"
                                                 placeholder="City or Airport"
                                             />
                                         )}
@@ -861,7 +861,7 @@ const LeftSide = () => {
                                                 {displayDepartureDate || "DD/MM/YYYY"}
                                             </span>
                                             {/* Calendar icon */}
-                                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-[#ec601d]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-[rgb(29,181,236)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                                             </svg>
                                         </div>
@@ -885,7 +885,7 @@ const LeftSide = () => {
                                                     {displayReturnDate || "DD/MM/YYYY"}
                                                 </span>
                                                 {/* Calendar icon */}
-                                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-[#ec601d]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-[rgb(29,181,236)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                                                 </svg>
                                             </div>
@@ -1060,7 +1060,7 @@ const LeftSide = () => {
                                         </div>
                                         <div className="flex justify-end">
                                             <button
-                                                className="w-[30%] bg-[#ec601d] hover:bg-[#d15518] text-white font-normal text-sm py-2 px-2 rounded-lg mt-4 transition-all duration-300 shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-[#ec601d] focus:ring-opacity-50"
+                                                className="w-[30%] bg-[rgb(29,181,236)] hover:bg-[rgb(29,181,236)] text-white font-normal text-sm py-2 px-2 rounded-lg mt-4 transition-all duration-300 shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-[rgb(29,181,236)] focus:ring-opacity-50"
                                                 onClick={() => setShowTravellerOptions(!showTravellerOptions)}
                                             >Done</button>
                                         </div>
@@ -1074,7 +1074,7 @@ const LeftSide = () => {
 
                             <button
                                 onClick={handleValidation}
-                                className="w-full bg-[#ec601d] hover:bg-[#e3733f] text-white font-medium py-3 px-6 rounded-lg transition duration-300 transform hover:scale-105"
+                                className="w-full bg-[rgb(29,181,236)] hover:bg-[rgb(29,181,236)] text-white font-medium py-3 px-6 rounded-lg transition duration-300 transform hover:scale-105"
                             >
                                 Search Flights
                             </button>
@@ -1114,7 +1114,7 @@ const LeftSide = () => {
                                     <input type="text"
                                         value={city}
                                         onChange={(e) => setCity(e.target.value)}
-                                        className="w-full px-4 py-3 h-14 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#ec601d] focus:border-[#ec601d] outline-none transition"
+                                        className="w-full px-4 py-3 h-14 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[rgb(29,181,236)] focus:border-[rgb(29,181,236)] outline-none transition"
                                         placeholder="City" />
 
                                     {cityResults.length > 0 && (
@@ -1128,7 +1128,7 @@ const LeftSide = () => {
                                                         onClick={() => handleCitySelect(city.name)}
                                                         className="flex gap-x-2  items-center px-2 py-2 hover:bg-gray-100 cursor-pointer transition"
                                                     >
-                                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="h-6 w-6 text-[#ec601d]">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="h-6 w-6 text-[rgb(29,181,236)]">
                                                             <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                                                             <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
                                                         </svg>
@@ -1161,7 +1161,7 @@ const LeftSide = () => {
                                                     {displayCheckinDate || "DD/MM/YYYY"}
                                                 </span>
                                                 {/* Calendar icon */}
-                                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-[#ec601d]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-[rgb(29,181,236)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                                                 </svg>
                                             </div>
@@ -1183,7 +1183,7 @@ const LeftSide = () => {
                                                     {displayCheckoutDate || "DD/MM/YYYY"}
                                                 </span>
                                                 {/* Calendar icon */}
-                                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-[#ec601d]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-[rgb(29,181,236)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                                                 </svg>
                                             </div>
@@ -1201,7 +1201,7 @@ const LeftSide = () => {
                                             name="travellers"
                                             value={hotelData.travellers}
                                             onChange={handleChange}
-                                            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#ec601d] focus:border-[#ec601d] outline-none transition appearance-none bg-white"
+                                            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[rgb(29,181,236)] focus:border-[rgb(29,181,236)] outline-none transition appearance-none bg-white"
                                         >
                                             {[...Array(10)].map((_, i) => (
                                                 <option key={i} value={i + 1}>{i + 1} {i === 0 ? 'Person' : 'People'}</option>
@@ -1212,7 +1212,7 @@ const LeftSide = () => {
                                         <label className="block text-sm font-medium text-gray-700 mb-1">Purpose</label>
                                         <select
                                             name="purpose"
-                                            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#ec601d] focus:border-[#ec601d] outline-none transition appearance-none bg-white"
+                                            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[rgb(29,181,236)] focus:border-[rgb(29,181,236)] outline-none transition appearance-none bg-white"
                                             value={hotelData.purpose}
                                             onChange={handleChange}
                                         >
@@ -1229,7 +1229,7 @@ const LeftSide = () => {
 
                                 <button
                                     onClick={handleHotelValidation}
-                                    className="w-full mt-6 bg-[#ec601d] hover:bg-[#e3733f] text-white font-medium py-3 px-6 rounded-lg transition duration-300 transform hover:scale-105"
+                                    className="w-full mt-6 bg-[rgb(29,181,236)] hover:bg-[rgb(29,181,236)] text-white font-medium py-3 px-6 rounded-lg transition duration-300 transform hover:scale-105"
                                 >
                                     Search Hotels
                                 </button>
