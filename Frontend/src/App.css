@@ -1,0 +1,4 @@
+/* Pause marquee animation on hover */
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
