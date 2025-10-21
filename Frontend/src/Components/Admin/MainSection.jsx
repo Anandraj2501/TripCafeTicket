@@ -749,7 +749,7 @@ export default function MainSection() {
                                         onClick={() => setShowModal(false)}
                                         className="px-4 py-2 bg-gray-200 text-gray-800 rounded-md hover:bg-gray-300"
                                     >
-                                        <a href={`https://tripcafe.net/downloadTicket?txnId=${selectedBooking?.transactionId}`} className="download-button" target='_blank'>Preview Ticket</a>
+                                        <a href={`https://tripcafeticket.com/downloadTicket?txnId=${selectedBooking?.transactionId}`} className="download-button" target='_blank'>Preview Ticket</a>
                                     </button>
 
                                     <button

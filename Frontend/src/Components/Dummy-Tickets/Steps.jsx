@@ -187,7 +187,7 @@ const Steps = () => {
            <section className="w-full px-3 bg-white bg-no-repeat bg-cover bg-[center_top_1rem]" style={{ backgroundImage: 'url(images/af-img.png)' }}>
            <div className="container mx-auto px-3 sm:px-5 md:px-10 py-10 sm:py-16 md:py-20">
             <div className='title-step w-full flex justify-center mb-6 sm:mb-8 md:mb-10'>
-                <h2 className='text-2xl sm:text-3xl md:text-4xl font-bold text-center'>With TripCafe, getting a flight or hotel ticket for your visa is as EASY as 1-2-3!
+                <h2 className='text-2xl sm:text-3xl md:text-4xl font-bold text-center'>With TripCafeTicket, getting a flight or hotel ticket for your visa is as EASY as 1-2-3!
 </h2>
             </div>
           

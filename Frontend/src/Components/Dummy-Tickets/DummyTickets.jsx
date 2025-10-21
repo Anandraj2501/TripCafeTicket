@@ -14,7 +14,7 @@ const DummyTickets = () => {
 
   return (
     <>
-      
+
       <Navbar />
       <section className="custom-bg-section">
         <div className="w-full py-10 lg:bg-[rgba(255,255,255,0.1)]">
@@ -22,7 +22,7 @@ const DummyTickets = () => {
             {/* Mobile View - Title followed by search form */}
             <div className="flex lg:hidden flex-col items-center text-center">
               <h1 className="text-2xl sm:text-4xl font-bold mb-6">
-                Get Dummy Flight Ticket & Hotel Reservation for ₹500
+                Embassy-Ready Flight Reservation – Instant & Affordable
               </h1>
               <div className="w-full">
                 <LeftSide />
@@ -39,10 +39,11 @@ const DummyTickets = () => {
               {/* Content - Bottom on mobile (centered), left on desktop */}
               <div className="w-full order-2 lg:order-1 lg:w-[60%] flex flex-col items-center text-center lg:items-start lg:text-left justify-center gap-y-4 md:gap-y-6">
                 <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-                  Get Dummy Flight Ticket & Hotel Reservation for ₹500
+                  Embassy-Ready Flight Reservation – Instant & Affordable
                 </h1>
                 <p className="text-[#333] text-lg sm:text-xl font-medium max-w-[600px]">
-                  TripCafe provides flight reservations, hotel bookings, travel insurance, detailed itineraries, and complete visa assistance for smooth visa applications.
+                  With TripCafeTicket.com, book an all-purpose flight reservation starting at just ₹500.
+                  Perfect for visa submissions or travel documentation, our flight bookings are processed instantly and ready to download right after checkout — fast, simple, and reliable.
                 </p>
                 <p> <b>500</b> tickets booked for <b>350+</b> happy customers</p>
               </div>

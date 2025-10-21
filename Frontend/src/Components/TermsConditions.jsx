@@ -11,7 +11,7 @@ function TermsConditions() {
         <div className='bg-[#fff] p-3  rounded-md' >
 
             <h2 className='text-[2rem] font-bold'>TERMS & CONDITIONS</h2>
-            <p className='text-[1rem] pb-2'>TripCafe (hereinafter also referred to as “We”, “Our”, “Us”, “Business”), a travel agency in India with its registered office at Delhi, offers you (hereinafter also referred to as “Customer(s)”, “Traveler(s), “User(s)”) travel services (also referred to as “Services”) including Dummy Ticket required for applying for a visa. The terms and conditions mentioned on this page along with the terms mentioned on any Dummy Ticket documents (mostly digital copies) we facilitate for download or print comprise the Terms and Conditions of TripCafe. www.tripcafeholidays.com (hereinafter also referred to as “Website”, or “Site,”) is the digital property that enables users to get access to travel services.</p>
+            <p className='text-[1rem] pb-2'>TripCafeTicket (hereinafter also referred to as “We”, “Our”, “Us”, “Business”), a travel agency in India with its registered office at Delhi, offers you (hereinafter also referred to as “Customer(s)”, “Traveler(s), “User(s)”) travel services (also referred to as “Services”) including Dummy Ticket required for applying for a visa. The terms and conditions mentioned on this page along with the terms mentioned on any Dummy Ticket documents (mostly digital copies) we facilitate for download or print comprise the Terms and Conditions of TripCafeTicket. www.TripCafeTicketholidays.com (hereinafter also referred to as “Website”, or “Site,”) is the digital property that enables users to get access to travel services.</p>
             <h3 className='text-[1.5rem] font-bold'>ACKNOWELDGEMENT</h3>
             <p className='text-[1rem] pb-2'>Your access to the Website or any of its section, and/or use of the services is conditioned on your acceptance of and compliance with these terms and conditions. If you do not agree with any part of these terms and conditions then you may not access or use the service, partial or complete, in any manner. </p>
             <p className='text-[1rem] pb-2'>The site may collect personal information (PI) or Non-Personal Identifiable Information (NPII) through its enquiry form, feedback or review section, or site analytics tools. Our Privacy Policy describes the practices and purposes of collection, use, and disclosure of the information.</p>
@@ -19,11 +19,11 @@ function TermsConditions() {
             <p className='text-[1rem] pb-2'>The use of this website is subject to the following terms of use:</p>
             <ul className='list-disc ml-5 py-3 text-[1rem]'>
                <li> <strong>Personal Use Only:</strong> The content or information available with the pages of this website is for your general information and personal use only.</li>
-               <li><strong>Booking for Visa Application Only:</strong> The Dummy Travel Reservation or Ticket issued by TripCafe can only be used to demonstrate that you intend to apply for a visa. TripCafe does not claim that the issued ticket fulfills the required criterion for a visa application or that you will necessarily secure a Visa by using the Dummy Ticket.</li> 
-               <li><strong>Acceptance of Dummy Ticket:</strong> TripCafe does not guarantee that the Dummy Ticket will be accepted by any authority, embassy, or organization. It is the user's responsibility to ensure that the Dummy Ticket meets the specific requirements for their visa application or any other intended purpose.</li>
-               <li><strong>Not Authorized for Actual Travel:</strong> The Dummy Tickets issued by TripCafe is not a confirmed ticket or booking and cannot be used for your actual travel including boarding a flight or checking-in or staying in a hotel. It does not authorize you to get the service from the mentioned supplier.</li>
-               <li>We adhere to the best editorial practices to provide accurate and up-to-date information on travel services. However, TripCafe does not offer any warranty on their accuracy, relevancy, and suitability for your purpose.</li>
-               <li>TripCafe travel services are available on AS IS and AS AVAILABLE basis. TripCafe strives to fulfill its commitments, certain factors including but not limited to as listed below may cause delays or failures. TripCafe explicitly states that it is not responsible for any delays in providing the dummy ticket.</li>
+               <li><strong>Booking for Visa Application Only:</strong> The Dummy Travel Reservation or Ticket issued by TripCafeTicket can only be used to demonstrate that you intend to apply for a visa. TripCafeTicket does not claim that the issued ticket fulfills the required criterion for a visa application or that you will necessarily secure a Visa by using the Dummy Ticket.</li> 
+               <li><strong>Acceptance of Dummy Ticket:</strong> TripCafeTicket does not guarantee that the Dummy Ticket will be accepted by any authority, embassy, or organization. It is the user's responsibility to ensure that the Dummy Ticket meets the specific requirements for their visa application or any other intended purpose.</li>
+               <li><strong>Not Authorized for Actual Travel:</strong> The Dummy Tickets issued by TripCafeTicket is not a confirmed ticket or booking and cannot be used for your actual travel including boarding a flight or checking-in or staying in a hotel. It does not authorize you to get the service from the mentioned supplier.</li>
+               <li>We adhere to the best editorial practices to provide accurate and up-to-date information on travel services. However, TripCafeTicket does not offer any warranty on their accuracy, relevancy, and suitability for your purpose.</li>
+               <li>TripCafeTicket travel services are available on AS IS and AS AVAILABLE basis. TripCafeTicket strives to fulfill its commitments, certain factors including but not limited to as listed below may cause delays or failures. TripCafeTicket explicitly states that it is not responsible for any delays in providing the dummy ticket.</li>
 
             </ul>
            <ol className='list-decimal ml-5 py-3 text-[1rem]'>
@@ -36,7 +36,7 @@ function TermsConditions() {
            </ol>
 <ul  className='list-disc ml-5 py-3 text-[1rem]'>
 <li>Your use of the content or services on this website is entirely at your own risk.</li> 
-<li>TripCafe works as a facilitator of travel services offered by partnered travel suppliers. It is your responsibility to ensure that any products, services, or information available through this website meet your specific requirements.</li>
+<li>TripCafeTicket works as a facilitator of travel services offered by partnered travel suppliers. It is your responsibility to ensure that any products, services, or information available through this website meet your specific requirements.</li>
 <li>From time to time this website may also include links to other websites. These links are provided for your convenience to provide further information. They do not signify that we endorse the website(s). We have no responsibility for the content of the linked website(s).</li>
 <li>Your use of this website and any dispute arising out of such use of the website is subject to the laws of India or other regulatory authority.</li>
 </ul>
@@ -45,7 +45,7 @@ function TermsConditions() {
 <p className='text-[1rem] pb-2'>Provide Correct Information: When you book a Dummy Ticket, you shall make sure to give the correct details like your name, passport information, and travel dates. The details provided by you to us at the time of booking Dummy Tickets should match with the information mentioned in your visa application. </p>
 <ul  className='list-disc ml-5 py-3 text-[1rem]'>
 <li><strong>Sole Responsibility:</strong> You, as the user, agree that you alone are responsible for any legal or financial consequences that may arise from your actions.</li>
-<li><strong>Liability for Use:</strong> If you attempt to use the dummy ticket for actual air travel (which it is not intended for), you will bear all the responsibility. TripCafe is not liable for any issues or legal consequences that may occur if you misuse the Dummy Ticket in this way.</li>
+<li><strong>Liability for Use:</strong> If you attempt to use the dummy ticket for actual air travel (which it is not intended for), you will bear all the responsibility. TripCafeTicket is not liable for any issues or legal consequences that may occur if you misuse the Dummy Ticket in this way.</li>
 <li><strong>Tampering or Alteration:</strong> If you alter the dummy ticket in any way to use it for purposes like obtaining a visa or anything else, you will be fully responsible for any resulting consequences.</li>
 <li><strong>Legal and Financial Consequences:</strong> Any misuse of the dummy ticket, whether for travel, visa applications, or any other purpose, is your responsibility, and the service provider is not liable.</li>
 
@@ -85,12 +85,12 @@ The user is responsible for paying any additional charges that may apply when ma
 <li>Rescheduled Visa Appointments: If you need to change your travel plans because your visa appointment has been rescheduled or rearranged, you are not eligible for a refund or re-issue of the Dummy Tickets.</li>
 <li>Different Travel Dates: If you decide to travel on different dates than originally planned, you cannot claim a refund or request a re-issue.</li>
 </ul>
-<h3 className='text-[1.5rem] font-bold'>TRIPCAFE DISCLAIMER</h3>
+<h3 className='text-[1.5rem] font-bold'>TripCafeTicket DISCLAIMER</h3>
 <ul  className='list-disc ml-5 py-3 text-[1rem]'>
-<li>TripCafe makes no promises regarding the effectiveness or acceptance of the Dummy Ticket makes no promises regarding the effectiveness or acceptance of the Dummy Ticket.</li>
-<li>TripCafe is Not Responsibility for Visa Rejection: The business explicitly states that it is not responsible if your visa is rejected for any reason, whether related to the Dummy Ticket or not.</li>
+<li>TripCafeTicket makes no promises regarding the effectiveness or acceptance of the Dummy Ticket makes no promises regarding the effectiveness or acceptance of the Dummy Ticket.</li>
+<li>TripCafeTicket is Not Responsibility for Visa Rejection: The business explicitly states that it is not responsible if your visa is rejected for any reason, whether related to the Dummy Ticket or not.</li>
 <li>Purchase at Your Own Risk: By purchasing the Dummy Ticket, you acknowledge that you are doing so at your own risk, and the business does not assure or guarantee that the Dummy Ticket will help in securing your visa or fulfill your intended purpose.</li>
-<li> TripCafe.net brand of TripCafe Holidays is an independent brand. Airline & Hotel logos shown on our website are used only for informational purposes and do not imply affiliation or endorsement.
+<li> TripCafeTicket.net brand of TripCafeTicket Holidays is an independent brand. Airline & Hotel logos shown on our website are used only for informational purposes and do not imply affiliation or endorsement.
 </li>
 </ul>
 <h3 className='text-[1.5rem] font-bold'>PROHIBITED ACTIVITIES</h3>

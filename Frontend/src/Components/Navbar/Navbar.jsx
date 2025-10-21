@@ -73,7 +73,7 @@ const Navbar = () => {
                     <Link to="/">
                       <img
                         alt="TripCafe"
-                        src="/images/trip-cafe.jpg"
+                        src="/images/Tripcafeticket.jpg"
                         className="h-8 md:h-10 w-auto"
                       />
                     </Link>

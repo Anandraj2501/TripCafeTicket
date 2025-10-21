@@ -11,9 +11,9 @@ function Privacy() {
         <div className='bg-[#fff] p-3  rounded-md' >
 
             <h2 className='text-[2rem] font-bold'>PRIVACY POLICY</h2>
-            <p className='text-[1rem] pb-2'>We, at TripCafe, (hereinafter also referred to as “we,” “us,” or “our”) respect your data privacy.
+            <p className='text-[1rem] pb-2'>We, at TripCafeTicket, (hereinafter also referred to as “we,” “us,” or “our”) respect your data privacy.
             </p>
-            <p className='text-[1rem] pb-2'>This Privacy Policy explains our policies and procedures regarding what information we collect <i>(via this Website - www. tripcafe.com) or offline), when we collect, why we collect, whom do we share your personal information, and what rights or controls you have on the submitted information.</i></p>
+            <p className='text-[1rem] pb-2'>This Privacy Policy explains our policies and procedures regarding what information we collect <i>(via this Website - www. TripCafeTicket.com) or offline), when we collect, why we collect, whom do we share your personal information, and what rights or controls you have on the submitted information.</i></p>
             <h3 className='text-[1.5rem] font-bold'>WHAT INFORMATION WE COLLECT</h3>
             <h3 className='text-[1.5rem] font-bold'>PERSONALLY IDENTIFIABLE INFORMATION (PII)</h3>
             <p className='text-[1rem] pb-2'>"Personal Information" is information that identifies you as an individual or relates to an identifiable person, including, for example</p>
@@ -43,13 +43,13 @@ function Privacy() {
 </li>
 </ul>
 <h3 className='text-[1.5rem] font-bold'>HOW WE USE OF YOUR PERSONAL INFORMATION</h3>
-<p className='text-[1rem] pb-2'>TripCafe uses your personal data for the following purposes:</p>
+<p className='text-[1rem] pb-2'>TripCafeTicket uses your personal data for the following purposes:</p>
 <ul  className='list-disc ml-5 py-3 text-[1rem]'>
 <li>To manage your travel enquiry or requests.</li> 
 <li>To provide and maintain our service.</li>
 <li>For the development, compliance, and undertaking of the purchase contract for the products, items, or services with travel supplier(s).</li>
 <li>Contact you by email, telephone calls, SMS, or other equivalent forms of electronic communication, such as a mobile application's push notifications regarding updates or informative communications related to the functionalities, products, or contracted services, including security updates when necessary or reasonable for their implementation.</li>
-<li>To contact you regarding news or offers from TripCafe if you opt for receiving such promotional offers or news.</li>
+<li>To contact you regarding news or offers from TripCafeTicket if you opt for receiving such promotional offers or news.</li>
 <li>To send administrative information to you, such as information regarding the Services and changes to our terms, conditions, and policies.</li>
 <li>As we believe to be necessary or appropriate:<br/>
 (a) under applicable law, including laws outside your state or country of residence;<br/> 
@@ -106,12 +106,12 @@ function Privacy() {
 <li>Rescheduled Visa Appointments: If you need to change your travel plans because your visa appointment has been rescheduled or rearranged, you are not eligible for a refund or re-issue of the Dummy Tickets.</li>
 <li>Different Travel Dates: If you decide to travel on different dates than originally planned, you cannot claim a refund or request a re-issue.</li>
 </ul>
-<h3 className='text-[1.5rem] font-bold'>TRIPCAFE DISCLAIMER</h3>
+<h3 className='text-[1.5rem] font-bold'>TripCafeTicket DISCLAIMER</h3>
 <ul  className='list-disc ml-5 py-3 text-[1rem]'>
-<li>TripCafe makes no promises regarding the effectiveness or acceptance of the Dummy Ticket makes no promises regarding the effectiveness or acceptance of the Dummy Ticket.</li>
-<li>TripCafe is Not Responsibility for Visa Rejection: The business explicitly states that it is not responsible if your visa is rejected for any reason, whether related to the Dummy Ticket or not.</li>
+<li>TripCafeTicket makes no promises regarding the effectiveness or acceptance of the Dummy Ticket makes no promises regarding the effectiveness or acceptance of the Dummy Ticket.</li>
+<li>TripCafeTicket is Not Responsibility for Visa Rejection: The business explicitly states that it is not responsible if your visa is rejected for any reason, whether related to the Dummy Ticket or not.</li>
 <li>Purchase at Your Own Risk: By purchasing the Dummy Ticket, you acknowledge that you are doing so at your own risk, and the business does not assure or guarantee that the Dummy Ticket will help in securing your visa or fulfill your intended purpose.</li>
-<li> TripCafe.net brand of TripCafe Holidays is an independent brand. Airline & Hotel logos shown on our website are used only for informational purposes and do not imply affiliation or endorsement.
+<li> TripCafeTicket.net brand of TripCafeTicket Holidays is an independent brand. Airline & Hotel logos shown on our website are used only for informational purposes and do not imply affiliation or endorsement.
 </li>
 </ul>
 <h3 className='text-[1.5rem] font-bold'>PROHIBITED ACTIVITIES</h3>

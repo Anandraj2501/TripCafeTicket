@@ -31,7 +31,7 @@ const Footer = () => {
              
                 <span className="px-5 border-r flex items-center">
                     
-                    <span  className='text-center'> Copyrights &copy; 2024 TripCafe Holidays. All Rights Reserved
+                    <span  className='text-center'> Copyrights &copy; 2024 TripCafeTicket Holidays. All Rights Reserved
                     </span> </span>
 
                 <span className="flex px-5">

@@ -19,7 +19,7 @@ const HotelReservationMessage = () => {
                         </div>  
                         <p className="text-sm">
                             Confirmed Hotel Reservation @ ₹1000
-                            Get your proof of accommodation with TripCafe in 30–90 minutes.
+                            Get your proof of accommodation with TripCafeTicket in 30–90 minutes.
                             Valid confirmation number provided, held up to 14 days as per travel date*.
                             (For visa applications only, not valid for stay.)
                         </p>
