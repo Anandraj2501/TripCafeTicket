@@ -124,7 +124,7 @@ const PaymentSuccess = () => {
                 <ul>
                   <li>📞 Contact Support: +91 9821715233</li>
                   <li>💬 WhatsApp: Click Here</li>
-                  <li>📧 Email: dummytickets@tripcafe.net</li>
+                  <li>📧 Email: bookings@tripcafeticket.com</li>
                 </ul>
 
               </div>

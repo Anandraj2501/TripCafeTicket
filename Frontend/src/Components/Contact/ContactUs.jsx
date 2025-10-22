@@ -35,7 +35,7 @@ const ContactUs = () => {
             <div className="right sm:w-[100%] md:w-[40%] lg:w-[40%] xl:w-[40%] flex flex-col items-center justify-center gap-y-6 ">
               <div className=' w-full text-center grid gap-y-2'>
                 <div className='w-[80px] mx-[auto]'><img src='images/email.svg' alt='' /></div>
-                <a href="dummytickets@tripcafe.net" className="bg-[#fff] text-[#000000] text-[1.3rem] hover:text-[#fff] mx-[auto] inline-block hover:bg-[#cc2c21] p-3 px-6 mt-2 rounded-md text-center">dummytickets@tripcafe.net</a>
+                <a href="bookings@tripcafeticket.com" className="bg-[#fff] text-[#000000] text-[1.3rem] hover:text-[#fff] mx-[auto] inline-block hover:bg-[#cc2c21] p-3 px-6 mt-2 rounded-md text-center">bookings@tripcafeticket.com</a>
                 <a  href="tel:+919821715233" className="bg-[#fff] text-[#000000] text-[1.3rem] hover:text-[#fff] mx-[auto] inline-block hover:bg-[#cc2c21] p-3 px-6 mt-2 rounded-md text-center">+91 9821715233</a>
                 {/* <div className='flex items-center gap-2 mx-[auto] justify-center'><div className='w-[40px]'><img src='images/loction.svg' alt='' /></div><label>Office Address - 33 Office 2nd Floor, Supremework EROS City Square, Sector 49 Gurgaon Haryana 122018</label></div> */}
                 <div className='flex items-center gap-2 mx-[auto] justify-center'><div className='w-[40px]'></div><label>Office Address - 4/1, Prem Nagar, Janakpuri, New Delhi, Delhi, 110058</label></div>

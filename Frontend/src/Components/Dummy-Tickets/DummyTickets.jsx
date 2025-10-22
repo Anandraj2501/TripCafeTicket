@@ -21,7 +21,7 @@ const DummyTickets = () => {
           <div className="container mx-auto px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12 2xl:px-16">
             {/* Mobile View - Title followed by search form */}
             <div className="flex lg:hidden flex-col items-center text-center">
-              <h1 className="text-2xl sm:text-4xl font-bold mb-6">
+              <h1 className="text-xl sm:text-4xl font-bold mb-6">
                 Get Verified Flight & Hotel Booking for Only ₹500
               </h1>
               <div className="w-full">
@@ -38,7 +38,7 @@ const DummyTickets = () => {
 
               {/* Content - Bottom on mobile (centered), left on desktop */}
               <div className="w-full order-2 lg:order-1 lg:w-[60%] flex flex-col items-center text-center lg:items-start lg:text-left justify-center gap-y-4 md:gap-y-6">
-                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
+                <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
                   Get Verified Flight & Hotel Booking for Only ₹500
                 </h1>
                 <p className="text-[#333] text-lg sm:text-xl font-medium max-w-[600px]">
