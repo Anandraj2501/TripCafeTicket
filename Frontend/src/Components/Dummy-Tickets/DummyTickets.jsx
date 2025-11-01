@@ -55,7 +55,7 @@ const DummyTickets = () => {
     .custom-bg-section {
       width: 100%;
       min-height: 90vh;
-      background-image: url('images/mobile-bg.jpg');
+      background-image: url('images/HeaderBanner.jpg');
       background-repeat: no-repeat;
       background-size: cover;
       background-position: top center;
@@ -64,7 +64,7 @@ const DummyTickets = () => {
     
     @media (min-width: 768px) {
       .custom-bg-section {
-        background-image: url('images/bg-1.jpg');
+        background-image: url('images/HeaderBanner.jpg');
       }
     }
   `}</style>
