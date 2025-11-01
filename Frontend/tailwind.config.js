@@ -14,6 +14,9 @@ module.exports = {
       animation: {
         marquee: 'marquee 20s linear infinite',
       },
+      fontFamily: {
+        poppins: ["Bebas-Neue"], // 👈 custom font name
+      },
     },
   },
   plugins: [],

@@ -1,4 +1,4 @@
-import './App.css';
+import './index.css';
 import BookingDetails from './Components/BookingDetails/BookingDetails';
 import DummyTickets from './Components/Dummy-Tickets/DummyTickets';
 //import Footer from './Components/Footer/Footer';
