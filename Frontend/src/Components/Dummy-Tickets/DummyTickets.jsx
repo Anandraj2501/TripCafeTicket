@@ -42,7 +42,9 @@ const DummyTickets = () => {
                   Get Verified Flight & Hotel Booking for Only ₹500
                 </h1>
                 <p className="text-[#333] text-lg sm:text-xl font-medium max-w-[600px]">
-                  TripCafeTicket.com Resrevation, Perfect for visa applications, travel proof, or return confirmation. Quick, reliable, and hassle-free!
+                  TripCafeTicket.com Resrevation, Perfect for visa applications, travel proof, or return confirmation. 
+                  <span className="block">Quick, reliable, and hassle-free!</span>
+
                 </p>
                 <p> <b>500</b> tickets booked for <b>350+</b> happy customers</p>
               </div>
