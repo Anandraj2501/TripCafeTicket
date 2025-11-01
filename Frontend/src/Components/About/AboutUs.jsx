@@ -37,36 +37,37 @@ const AboutUs = () => {
                 Beyond travel packages, we also simplify the visa documentation process by offering valid dummy hotel and flight bookings that meet embassy requirements. Every service we offer is backed by transparency, reliability, and adherence to business ethics and travel regulations. With a quick, secure, and flexible process, we ensure your requests are fulfilled on time — every time.
               </p>
               <h3 className=" text-xl  font-bold text-left w-full">Our Mission</h3>
-              <p className='text-base'>Making travel effortless.
-                That’s the heart of TripCafeTicket.
-                Our customer-focused approach and streamlined service model are built to make your travel experience seamless and worry-free. Whether you’re exploring a new destination or returning to a favorite one, TripCafeTicket ensures your journey is memorable — and always at a competitive price.
-              </p>
+              <p className='text-base'>Making travel effortless. That’s the heart of TripCafeTicket.</p>
+              <p>Our customer-focused approach and streamlined service model are built to make your travel experience seamless and worry-free. Whether you’re exploring a new destination or returning to a favorite one, TripCafeTicket ensures your journey is memorable — and always at a competitive price.</p>
+                
+              
 
               <h3 className=" text-xl  font-bold text-left w-full">Why TripCafeTicket for your next travel?</h3>
-              <p className='text-base'>At TripCafeTicket, we understand that every journey has a purpose, and our goal is to help you fulfill it. Our travel experts carefully listen to your needs to craft solutions that perfectly match your expectations.
-                We design personalized and budget-friendly travel packages for:
-                Family holidays
+              <div>
+                <p className='text-base'>At TripCafeTicket, we understand that every journey has a purpose, and our goal is to help you fulfill it. Our travel experts carefully listen to your needs to craft solutions that perfectly match your expectations.</p><br />
+                <p>
+                  We design personalized and budget-friendly travel packages for:
+                  Family holidays
+                </p>
+                <ul className=' list-disc ml-10'>
+                  <li>Destination weddings & honeymoons</li>
+                  <li>Educational & business tours</li>
+                  <li>Conventions & technical visits</li>
+                  <li>Sports and group tours</li>
+                  <li>Women-only & solo travel experiences</li>
+                </ul><br />
+                <p>
+                  Every customer is assigned a dedicated travel counselor who manages your journey from the first inquiry to your trip’s completion.
+                </p>
+                <p>
+                  We believe in complete flexibility and transparency — no unnecessary commitments or full prepayments. Instead, we provide verifiable flight itineraries and hotel bookings (dummy reservations) that meet visa processing standards. You only pay a service fee and applicable taxes. Once your visa is approved, you can confirm and purchase your actual travel arrangements with ease — no hidden charges, no surprises.
+                </p>
+                <p>
+                  Whether you’re a tourist, student, employee, patient, or group traveler, TripCafeTicket ensures a hassle-free experience — from visa assistance to flight and hotel reservations — so you can focus on what matters most: your journey.
+                </p>
+              </div>
 
 
-                Destination weddings & honeymoons
-
-
-                Educational & business tours
-
-
-                Conventions & technical visits
-
-
-                Sports and group tours
-
-
-                Women-only & solo travel experiences
-
-
-                Every customer is assigned a dedicated travel counselor who manages your journey from the first inquiry to your trip’s completion.
-                We believe in complete flexibility and transparency — no unnecessary commitments or full prepayments. Instead, we provide verifiable flight itineraries and hotel bookings (dummy reservations) that meet visa processing standards. You only pay a service fee and applicable taxes. Once your visa is approved, you can confirm and purchase your actual travel arrangements with ease — no hidden charges, no surprises.
-                Whether you’re a tourist, student, employee, patient, or group traveler, TripCafeTicket ensures a hassle-free experience — from visa assistance to flight and hotel reservations — so you can focus on what matters most: your journey.
-              </p>
 
             </div>
           </div>
