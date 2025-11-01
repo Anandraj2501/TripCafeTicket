@@ -16,7 +16,7 @@ const PricingPlan = () => {
                         <div className='rounded-[20px] w-full sm:w-[80%] md:w-[45%] lg:w-[30%] xl:w-[25%] border-solid border-zinc-200 border-2 p-6 grid grid-rows gap-3 bg-white shadow-md'>
                             <h3 className='text-2xl sm:text-2.5xl md:text-2.5xl lg:text-2.5xl xl:text-2.5xl font-bold text-center'>Flight Reservation</h3>
                             <div className='card-img'>
-                                <img src="images/flight-booking.jpg" alt='' className="w-full h-auto" />
+                                <img src="images/Flight-Reservation.png" alt='' className="w-full h-auto" />
                             </div>
                             <div className='flex justify-center text-center'>
                                 <div className='text-3xl font-[600]'>&#8377;500<small style={{ fontSize: '15px' }}>/Per Person or Child</small></div>
@@ -32,7 +32,7 @@ const PricingPlan = () => {
                         <div className='rounded-[20px] w-full sm:w-[80%] md:w-[45%] lg:w-[30%] xl:w-[25%] border-solid border-zinc-200 border-2 p-6 grid grid-rows gap-3 bg-white shadow-md'>
                             <h3 className='text-2xl sm:text-2.5xl md:text-2.5xl lg:text-2.5xl xl:text-2.5xl font-bold text-center'>Hotel Reservation</h3>
                             <div className='card-img'>
-                                <img src="images/hotal-booking.jpg" alt='' className="w-full h-auto" />
+                                <img src="images/Hotel-Reservation.png" alt='' className="w-full h-auto" />
                             </div>
 
                             <div className='flex justify-center text-center'>
@@ -49,7 +49,7 @@ const PricingPlan = () => {
                         <div className='rounded-[20px] w-full sm:w-[80%] md:w-[45%] lg:w-[30%] xl:w-[25%] border-solid border-zinc-200 border-2 p-6 grid grid-rows gap-3 bg-white shadow-md'>
                             <h3 className='text-2xl sm:text-2.5xl md:text-2.5xl lg:text-2.5xl xl:text-2.5xl font-bold text-center'>Travel Insurance</h3>
                             <div className='card-img'>
-                                <img src="images/travelinsurance.png" alt='' className="w-full h-auto" />
+                                <img src="images/Travel-Insurance.png" alt='' className="w-full h-auto" />
                             </div>
 
                             <div className='flex justify-center text-center'>

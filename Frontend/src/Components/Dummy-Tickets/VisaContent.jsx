@@ -9,10 +9,11 @@ const VisaContent = () => {
                <div className="container mx-auto px-3 md:px-10">
                    <div className="flex flex-wrap gap-x-10">
                        <div className="left w-full md:w-[56.5%] flex flex-col items-center justify-center gap-y-6">
-                           <h2 className="text-2xl md:text-4xl font-bold text-center md:text-left">Why do I need a flight & hotel booking document to apply for a visa?</h2>
+                           <h2 className="text-2xl md:text-4xl font-bold text-center md:text-left">Why Do You Need a Flight & Hotel Booking Document for Your Visa Application?</h2>
                            <p className="text-[#333] text-base md:text-xl font-medium text-justify">
-                               As a citizen of a foreign nation, you must obtain an appropriate visa for the destination country, unless your country is on their list of visa-free travel nations. Embassies or consulates from most of the countries accept a visa application only when a verifiable flight or hotel booking document is attached to it. However, they accept a dummy flight or hotel booking. There is no need to get a fully-paid booking while applying for a visa. An embassy or consulate issues the requested visa only when it finds the application complete and genuine. <br/><br/>
-                               TripCafeTicket helps you obtain dummy reservations for flight & hotel to any destinations or countries instantly. These reservations are acceptable for visa application to any country.
+                               When applying for a visa, most embassies or consulates require verifiable flight and hotel booking documents to process your application — unless your nationality is eligible for visa-free travel. These documents help authorities confirm your travel intent and ensure that your application is genuine and complete. <br/><br/>
+                               The good news is, you don’t need to make fully paid bookings at this stage. Most embassies accept dummy flight and hotel reservations, which serve as valid proof of travel for visa processing. <br/><br/>
+                               At TripCafeTicket.com, we make this process effortless. You can instantly get verifiable dummy flight and hotel reservations for any destination worldwide — perfect for your visa application, without the need for actual ticket purchases
                            </p>
                        </div>
                        <div className="right w-full md:w-[40%]">
@@ -125,7 +126,7 @@ const VisaContent = () => {
                    <div className="flex flex-wrap gap-x-10">
                        <div className="left w-full md:w-[40%]">
                            <div className="w-full">
-                               <img src="images/trevel-2.jpg" className="w-full" alt=""/>
+                               <img src="images/Why-Us.png" className="w-full" alt=""/>
                            </div>
                        </div>
                        <div className="right w-full md:w-[56.5%] flex flex-col items-center justify-center gap-y-6">

@@ -6,13 +6,13 @@ const ContactUs = () => {
   return (
     <>
       <Navbar />
-      <section className='header-title sm:w-[100%] md:w-[100%] lg:w-[100%] xl:w-[100%] 2xl:w-[100%]   bg-no-repeat bg-cover  bg-center' style={{ backgroundImage: 'url(images/banner-bg-inn.jpg)' }}>
+      <section className='header-title sm:w-[100%] md:w-[100%] lg:w-[100%] xl:w-[100%] 2xl:w-[100%]   bg-no-repeat bg-cover  bg-center' style={{ backgroundImage: 'url(images/AboutUsBanner.jpg)' }}>
 
         <div className="md:container md:mx-auto px-3 sm:px-10  md:px-10 lg:px-10 xl:px-10 2xl:px-10 py-5  sm:py-10 md:py-15  lg:py-20 xl:py-20">
-          <div> <h1 className=" text-4xl md:text-6xl lg:text-6xl xl:text-6xl font-black text-white ">Contact Us</h1>
+          {/* <div> <h1 className=" text-4xl md:text-6xl lg:text-6xl xl:text-6xl font-black text-white ">Contact Us</h1>
             <p className="text-white">Get in touch and let us know how we can help.</p>
 
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -24,7 +24,7 @@ const ContactUs = () => {
 
             <div className="left w-[100%] sm:w-[100%]  md:w-[40%]  lg:w-[40%] xl:w-[40%] font-bold">
               <div className="w-[100%]  sm:w-[100%]  md:w-[100%]  lg:w-[100%] xl:w-[100%] ">
-                <img src='images/contact-ob.png' className='w-[100%]' alt="" />
+                <img src='images/contactUs.png' className='w-[100%]' alt="" />
               </div>
               <div className='w-[100%] text-center py-3'>
                 <h2 className='text-[2rem]'>Help & Support</h2>

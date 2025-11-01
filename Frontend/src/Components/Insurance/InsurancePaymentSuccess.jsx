@@ -72,7 +72,7 @@ const InsurancePaymentSuccess = () => {
                             <div className="w-full">
                                 <h1 className="text-2xl font-bold mb-4">Hello, {bookingdata?.contactDetails.name}!</h1>
                                 <p>Your Dummy Hotel Ticket for {bookingdata?.city} Booking Payment is <span className=" text-red-500 font-bold">Failed</span>. Sorry for the inconvenience caused, you can try making the payment on TripCafeTicket Holiday's UPI ID: <span className=" font-bold">m22ixzctr8tty@ybl
-                                </span>  Once You make payment then please share the screenshot of your payment proof on  <span className=" font-bold">dummytickets@tripcafe.net</span>, this will help us to send you ticket ASAP to you on your email id. </p>
+                                </span>  Once You make payment then please share the screenshot of your payment proof on  <span className=" font-bold">bookings@tripcafeticket.com</span>, this will help us to send you ticket ASAP to you on your email id. </p>
                             </div>
                             <h2 className="text-xl font-semibold mb-4">Payment Details</h2>
                             <div className="payment-details">
