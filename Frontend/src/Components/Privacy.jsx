@@ -111,7 +111,7 @@ function Privacy() {
 <li>TripCafeTicket makes no promises regarding the effectiveness or acceptance of the Dummy Ticket makes no promises regarding the effectiveness or acceptance of the Dummy Ticket.</li>
 <li>TripCafeTicket is Not Responsibility for Visa Rejection: The business explicitly states that it is not responsible if your visa is rejected for any reason, whether related to the Dummy Ticket or not.</li>
 <li>Purchase at Your Own Risk: By purchasing the Dummy Ticket, you acknowledge that you are doing so at your own risk, and the business does not assure or guarantee that the Dummy Ticket will help in securing your visa or fulfill your intended purpose.</li>
-<li> TripCafeTicket.net brand of TripCafeTicket Holidays is an independent brand. Airline & Hotel logos shown on our website are used only for informational purposes and do not imply affiliation or endorsement.
+<li> TripCafeTicket.net brand of TripCafeTicket is an independent brand. Airline & Hotel logos shown on our website are used only for informational purposes and do not imply affiliation or endorsement.
 </li>
 </ul>
 <h3 className='text-[1.5rem] font-bold'>PROHIBITED ACTIVITIES</h3>
