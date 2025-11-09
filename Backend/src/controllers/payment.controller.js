@@ -19,7 +19,7 @@ const env = process.env.NODE_ENV === "development" ? Env.SANDBOX : Env.PRODUCTIO
 
 const client = StandardCheckoutClient.getInstance(clientId, clientSecret, clientVersion, env);
 
-
+const allowedOrigins = process.env.CORS_ORIGIN.split(",").map(origin => origin.trim());
 
 
 const initializeRazorpayFlightPayment = async (req, res) => {
@@ -137,7 +137,16 @@ const verifyFlightrazorpayPayment = async (req, res) => {
           pnr: pnr
         }
       );
-      res.redirect(`${process.env.CORS_ORIGIN}/paymentStatus/${id}`);
+      // console.log("redirecting...");
+      // res.redirect(`${process.env.CORS_ORIGIN}/paymentStatus/${id}`);
+      const origin = req.headers.origin;
+
+      // If the origin is allowed, redirect back to that origin
+      const redirectBase = allowedOrigins.includes(origin)
+        ? origin
+        : allowedOrigins[0]; // fallback option
+
+      res.redirect(`${redirectBase}/paymentStatus/${id}`);
     }
   } catch (error) {
     console.log(error);
