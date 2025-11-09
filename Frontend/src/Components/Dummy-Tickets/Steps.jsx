@@ -191,7 +191,7 @@ const Steps = () => {
                     </div>
 
                     <div >
-                        <img src="images/Stepsbanner.png" className="w-full" alt=""/>
+                        <img src="images/StepsBanner.png" className="w-full" alt="image"/>
                         {/* <div className='rounded-[20px] border border-zinc-200 p-4 grid gap-3 bg-white shadow-md'>
                             <div className='card-img h-[150px] sm:h-[180px] md:h-[200px]'>
                                 <img src="images/Flight_Booking_Step_2.svg" alt='' className="h-full w-full object-contain" />
