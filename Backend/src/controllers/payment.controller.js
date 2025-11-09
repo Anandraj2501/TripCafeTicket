@@ -100,7 +100,7 @@ const initializeRazorpayFlightPayment = async (req, res) => {
 
 const verifyFlightrazorpayPayment = async (req, res) => {
   try {
-
+    console.log("inside verify");
     const { razorpay_order_id, razorpay_payment_id, razorpay_signature } = req.body;
     const { id } = req.params;
 
@@ -140,7 +140,7 @@ const verifyFlightrazorpayPayment = async (req, res) => {
       res.redirect(`${process.env.CORS_ORIGIN}/paymentStatus/${id}`);
     }
   } catch (error) {
-    // //consolelog(error);
+    console.log(error);
     res.status(500).send({
       error
     });

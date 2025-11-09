@@ -20,7 +20,7 @@ const FAQs = () => {
       <div class="grid  max-w-2xl mx-auto mt-8">
 		<div class="py-1">
 			<details class="group transition-al1 duration-75">
-				<summary class="flex justify-between items-center font-medium cursor-pointer list-none bg-[#cc2c21] color-white  p-3 rounded-lg ">
+				<summary class="flex justify-between items-center font-medium cursor-pointer list-none bg-[rgb(29,181,236)] color-white  p-3 rounded-lg ">
 					<span className='text-white font-bold'>Is your flight or hotel dummy booking or ticket legit?</span>
 					<span class="transition group-open:rotate-180">
                 <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
@@ -35,7 +35,7 @@ const FAQs = () => {
 		</div>
 		<div class="py-1">
 			<details class="group">
-				<summary class="flex justify-between items-center font-medium cursor-pointer list-none bg-[#cc2c21] color-white  p-3 rounded-lg ">
+				<summary class="flex justify-between items-center font-medium cursor-pointer list-none bg-[rgb(29,181,236)] color-white  p-3 rounded-lg ">
 					<span className='text-white font-bold'>How soon will I get my flight and hotel reservation?</span>
 					<span class="transition group-open:rotate-180">
                 <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
@@ -49,7 +49,7 @@ const FAQs = () => {
 		</div>
 		<div class="py-1">
 			<details class="group">
-				<summary class="flex justify-between items-center font-medium cursor-pointer list-none bg-[#cc2c21] color-white  p-3 rounded-lg ">
+				<summary class="flex justify-between items-center font-medium cursor-pointer list-none bg-[rgb(29,181,236)] color-white  p-3 rounded-lg ">
 					<span className='text-white font-bold'>How does the flight or hotel reservation for visa application work?</span>
 					<span class="transition group-open:rotate-180">
                 <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
@@ -64,7 +64,7 @@ const FAQs = () => {
 		</div>
 		<div class="py-1">
 			<details class="group">
-				<summary class="flex justify-between items-center font-medium cursor-pointer list-none bg-[#cc2c21] color-white  p-3 rounded-lg">
+				<summary class="flex justify-between items-center font-medium cursor-pointer list-none bg-[rgb(29,181,236)] color-white  p-3 rounded-lg">
 					<span className='text-white font-bold'> What visa type is appropriate?</span>
 					<span class="transition group-open:rotate-180">
                 <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
@@ -84,7 +84,7 @@ const FAQs = () => {
 		</div>
 		<div class="py-1">
 			<details class="group">
-				<summary class="flex justify-between items-center font-medium cursor-pointer list-none bg-[#cc2c21] color-white  p-3 rounded-lg">
+				<summary class="flex justify-between items-center font-medium cursor-pointer list-none bg-[rgb(29,181,236)] color-white  p-3 rounded-lg">
 					<span className='text-white font-bold'> What is a direct flight?</span>
 					<span class="transition group-open:rotate-180">
                 <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path>
@@ -98,7 +98,7 @@ const FAQs = () => {
 		</div>
 		<div class="py-1">
 			<details class="group">
-				<summary class="flex justify-between items-center font-medium cursor-pointer list-none bg-[#cc2c21] color-white  p-3 rounded-lg">
+				<summary class="flex justify-between items-center font-medium cursor-pointer list-none bg-[rgb(29,181,236)] color-white  p-3 rounded-lg">
 					<span className='text-white font-bold'> What is a connecting flight?
 					</span>
 					<span class="transition group-open:rotate-180">

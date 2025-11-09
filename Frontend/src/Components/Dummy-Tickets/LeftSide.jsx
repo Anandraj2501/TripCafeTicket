@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from "react";
 import axios from "axios";
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { toast, ToastContainer } from "react-toastify";
 import Insurance from "../Forms/Insurance";
 
@@ -360,7 +360,7 @@ const LeftSide = () => {
     const [justSelectedTo, setJustSelectedTo] = useState(false);
     const [city, setCity] = useState([]);
     const [cityResults, setCityResults] = useState([]);
-    
+
 
 
 
@@ -610,7 +610,7 @@ const LeftSide = () => {
     };
 
     const handleHotelValidation = () => {
-        console.log(hotelData,"hotelData");
+        console.log(hotelData, "hotelData");
         if (!hotelData.city || hotelData.city === "0") {
             toast.error("Please select a city");
             return;
@@ -656,8 +656,19 @@ const LeftSide = () => {
         return summary;
     };
 
+    const location = useLocation();
 
-        
+    useEffect(() => {
+        const path = location.pathname.toLowerCase();  // "/insurance"
+
+        if (path.includes("insurance")) {
+            setActiveButton("Insurance");
+        } else if (path.includes("flight")) {
+            setActiveButton("Flight");
+        }
+        // add more conditions if needed
+    }, [location.pathname]);
+
 
     return (
         <div className="w-full max-w-2xl p-4 ml-auto" style={{ overflow: "visible" }}>
@@ -741,7 +752,7 @@ const LeftSide = () => {
                                     <label className="block text-sm font-medium text-gray-700 mb-1">From</label>
                                     <div className="w-full">
                                         {selectedFromAirport ? (
-                                            <div 
+                                            <div
                                                 onClick={() => {
                                                     setFrom('');
                                                     setSelectedFromAirport(null);
@@ -805,7 +816,7 @@ const LeftSide = () => {
                                     <label className="block text-sm font-medium text-gray-700 mb-1">To</label>
                                     <div className="w-full">
                                         {selectedToAirport ? (
-                                            <div 
+                                            <div
                                                 onClick={() => {
                                                     setTo('');
                                                     setSelectedToAirport(null);
@@ -1250,7 +1261,7 @@ const LeftSide = () => {
 
                 {/* Travel Insurance Form */}
                 {activeButton === "Insurance" && (
-                    <Insurance formatDateForDisplay={formatDateForDisplay}/>
+                    <Insurance formatDateForDisplay={formatDateForDisplay} />
                 )}
             </div>
             <ToastContainer />
