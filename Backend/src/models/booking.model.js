@@ -61,6 +61,7 @@ const bookingSchema = mongoose.Schema(
         travelClass: { type: String, required: true },
         flightDetails: [FlightDetails],
         paymentMethod: { type: String, required: false },
+        source: { type: String, required: false },
         addOnDetails: {
             bag: {
                 hand_weight: { type: String, required: false },

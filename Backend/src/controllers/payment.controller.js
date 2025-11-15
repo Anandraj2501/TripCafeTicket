@@ -7,6 +7,7 @@ import { StandardCheckoutClient, Env, StandardCheckoutPayRequest } from 'pg-sdk-
 import Razorpay from "razorpay";
 import crypto from "crypto";
 import { insuranceBooking } from "../models/insurancebooking.model.js";
+import { source } from "motion/react-client";
 
 dotenv.config({
   path: "./.env"
@@ -81,7 +82,8 @@ const initializeRazorpayFlightPayment = async (req, res) => {
         travellingDetails: JSON.parse(pd.udf2), // Parse travellingDetails from JSON string
         paymentMethod: "razorpay",
         flightDetails: JSON.parse(pd.udf3),
-        addOnDetails: pd.addOnDetails
+        addOnDetails: pd.addOnDetails,
+        source: allowedOrigins[0]
       });
 
       await newOrder.save();
@@ -274,7 +276,8 @@ const initiateRazorpayHotelPayment = async (req, res) => {
         status: "pending",
         contactDetails,
         passengers,
-        hotelInfo: req.body.hotelInfo
+        hotelInfo: req.body.hotelInfo,
+        source: allowedOrigins[0]
       })
 
       await hotelbooking.save();
@@ -368,6 +371,7 @@ const initiateInsurancePayment = async (req, res) => {
         status: "pending",
         contactDetails,
         passengers,
+        source: allowedOrigins[0]
       })
 
       await insuranceBookingData.save();

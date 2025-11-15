@@ -60,6 +60,7 @@ const hotelbooking = new Schema({
         }
     },
     passengers: [PassengerSchema],
+    source: { type: String, required: false },
     hotelInfo: {
         type: Object,
         required: false

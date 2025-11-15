@@ -23,6 +23,7 @@ const InsuranceBooking = ({ filteredTickets, handleViewDetails, showModal, booki
                             <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">From</th>
                             <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">To</th>
                             <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Amount</th>
+                            <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Source</th>
                             <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Phone</th>
                             <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Email</th>
                             <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Status</th>
@@ -46,6 +47,7 @@ const InsuranceBooking = ({ filteredTickets, handleViewDetails, showModal, booki
                                 <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">{ticket?.to}</td>
 
                                 <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">{ticket?.amount}</td>
+                                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">{ticket?.source}</td>
                                 <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">{ticket?.contactDetails?.phone}</td>
                                 <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">{ticket?.contactDetails?.email}</td>
                                 <td className="px-6 py-4 whitespace-nowrap">

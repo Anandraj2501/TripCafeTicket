@@ -69,7 +69,8 @@ const insurancebooking = new Schema({
             required: true
         }
     },
-    passengers: [PassengerSchema]
+    passengers: [PassengerSchema],
+    source: { type: String, required: false}
 },
     { timestamps: true }
 )

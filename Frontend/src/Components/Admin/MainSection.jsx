@@ -438,6 +438,7 @@ export default function MainSection() {
                                         <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Reference ID</th>
                                         <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">PNR</th>
                                         <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Amount</th>
+                                        <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Source</th>
                                         <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Email</th>
                                         <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Phone</th>
                                         <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Status</th>
@@ -459,6 +460,7 @@ export default function MainSection() {
                                             <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">{ticket?.referenceId}</td>
                                             <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">{ticket?.pnr}</td>
                                             <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">{ticket?.amount}</td>
+                                            <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">{ticket?.source}</td>
                                             <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">{ticket?.email}</td>
                                             <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">{ticket?.phone}</td>
 
@@ -492,6 +494,7 @@ export default function MainSection() {
                                             <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Check-Out Date</th>
                                             <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">City</th>
                                             <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Amount</th>
+                                            <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Source</th>
                                             <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Phone</th>
                                             <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Email</th>
                                             <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Status</th>
@@ -512,6 +515,7 @@ export default function MainSection() {
                                                 <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">{ticket?.checkoutDate?.split("T")[0]}</td>
                                                 <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">{ticket?.city}</td>
                                                 <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">{ticket?.amount}</td>
+                                                <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">{ticket?.source}</td>
                                                 <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">{ticket?.contactDetails?.phone}</td>
                                                 <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">{ticket?.contactDetails?.email}</td>
                                                 <td className="px-6 py-4 whitespace-nowrap">
