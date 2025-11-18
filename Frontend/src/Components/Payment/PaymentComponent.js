@@ -28,7 +28,7 @@ const PaymentComponent = () => {
     console.log("PaymentComponent location state:", location.state.flightDetails);
     const data = {
         txnid,
-        amount,
+        amount: 1,
         productinfo: `dummyTicket - ${purpose}`,
         firstname: name,
         phone,
