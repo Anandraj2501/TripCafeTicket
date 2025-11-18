@@ -25,9 +25,10 @@ const allowedOrigins = process.env.CORS_ORIGIN.split(",").map(origin => origin.t
 app.use(
   cors({
     origin: function (origin, callback) {
-      // Allow requests with no origin (like mobile apps or curl)
-      console.log("Request Origin:", origin);
-      if (!origin) return callback(null, true);
+      // Allow requests with no origin or "null" origin
+      if (!origin || origin === "null") {
+        return callback(null, true);
+      }
 
       if (allowedOrigins.includes(origin)) {
         callback(null, true);
@@ -38,7 +39,7 @@ app.use(
     },
     credentials: true,
   })
-); 
+);
 
 
 
